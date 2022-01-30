@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"s_walter","path":"sprites/s_walter/s_walter.yy",},"order":1,},
+    {"id":{"name":"o_walter","path":"objects/o_walter/o_walter.yy",},"order":1,},
+    {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":0,},
+    {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":0,},
     {"id":{"name":"r_one","path":"rooms/r_one/r_one.yy",},"order":0,},
   ],
   "Options": [
