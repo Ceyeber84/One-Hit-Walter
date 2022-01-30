@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"s_jake","path":"sprites/s_jake/s_jake.yy",},"order":0,},
     {"id":{"name":"o_jake","path":"objects/o_jake/o_jake.yy",},"order":0,},
     {"id":{"name":"r_one","path":"rooms/r_one/r_one.yy",},"order":0,},
   ],
