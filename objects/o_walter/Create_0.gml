@@ -1,5 +1,4 @@
 /// @description Create Variables
-
 hspeed_ = 0;
 vspeed_ = 0;
 vacceleration_ = 0;
