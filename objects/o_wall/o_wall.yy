@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_solid",
-    "path": "sprites/s_solid/s_solid.yy",
+    "name": "s_wall",
+    "path": "sprites/s_wall/s_wall.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_solid",
+  "name": "o_wall",
   "tags": [],
   "resourceType": "GMObject",
 }
