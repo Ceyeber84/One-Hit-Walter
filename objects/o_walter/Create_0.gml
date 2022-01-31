@@ -9,6 +9,7 @@ bullet_vspeed_ = 0;
 
 // Controls
 
+keyboard_set_map(vk_space, vk_up);
 keyboard_set_map(ord("W"), vk_up);
 keyboard_set_map(ord("A"), vk_left);
 keyboard_set_map(ord("S"), vk_down);
