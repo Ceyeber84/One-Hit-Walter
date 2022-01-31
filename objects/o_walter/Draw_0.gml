@@ -2,10 +2,10 @@
 
 // Draw player
 
-draw_self();
+var flipped = 1 + (mouse_x <= x) * -2;
+draw_sprite_ext(s_walter, image_index, x, y, xscale_ * flipped, yscale_, 0, image_blend, image_alpha);
 
 // Draw the gun
 
 var dir = point_direction(x, y, mouse_x, mouse_y);
-draw_sprite_ext(s_gun, 0, x, y, image_xscale, image_yscale, dir, image_blend, image_alpha); 
-s_gun.depth = -2;
+draw_sprite_ext(s_gun, 0, x - 5 * flipped, y, image_xscale, flipped, dir, image_blend, image_alpha); 
