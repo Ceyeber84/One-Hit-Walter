@@ -7,6 +7,8 @@
     {"id":{"name":"Collision","path":"scripts/Collision/Collision.yy",},"order":0,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":0,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":0,},
+    {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"order":3,},
+    {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},"order":3,},
     {"id":{"name":"r_one","path":"rooms/r_one/r_one.yy",},"order":0,},
   ],
   "Options": [

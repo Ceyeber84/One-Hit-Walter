@@ -18,6 +18,7 @@ vspeed_ += .3 * vacceleration_;
 vspeed_ = clamp(vspeed_, -max_speed_, max_speed_);
 if vinput = 0 {
 	vspeed_ = lerp(vspeed_, 0, .1);
+	vspeed_ += .1;
 }
 
 // Collisions
