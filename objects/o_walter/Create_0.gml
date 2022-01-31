@@ -3,7 +3,9 @@ hspeed_ = 0;
 vspeed_ = 0;
 vacceleration_ = 0;
 hacceleration_ = 0;
-max_speed_ = 4;
+max_speed_ = 3;
+bullet_hspeed_ = 0;
+bullet_vspeed_ = 0;
 
 // Controls
 
