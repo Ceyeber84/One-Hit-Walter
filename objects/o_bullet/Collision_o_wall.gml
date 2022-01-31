@@ -1,2 +1,2 @@
-/// @description Destroy the bullet
+/// @description Bounce / Destroy bullet
 instance_destroy();

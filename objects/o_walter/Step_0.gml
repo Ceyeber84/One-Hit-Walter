@@ -1,4 +1,4 @@
-/// @description Movement
+/// @description Movement and Damage
 
 // Update hspeed_
 
@@ -29,3 +29,7 @@ Collision();
 
 x += hspeed_;
 y += vspeed_;
+
+if health_ <= 0 {
+instance_destroy();	
+}

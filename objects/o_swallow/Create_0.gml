@@ -1,4 +1,5 @@
 /// @description Variables
+//Movement
 hspeed_ = 1;
 vspeed_ = 1;
 hacceleration_ = 0.05;
@@ -13,3 +14,6 @@ ATTACK = 0;
 SLOW = 1;
 
 state = ATTACK;
+
+//Gameplay
+health_ = 3;
