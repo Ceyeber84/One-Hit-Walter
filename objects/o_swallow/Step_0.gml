@@ -11,8 +11,13 @@ y += vspeed_;
 //States and Collision
 event_user(state);
 Collision();
+Collision_Push();
+if !place_meeting(x, y, o_swallow) {
+	hspeed_push_ = lerp(hspeed_push_, 0, .1);
+	vspeed_push_ = lerp(vspeed_push_, 0, .1);
+}
 
 //Health and Death
 if health_ <= 0 {
-instance_destroy();	
+	instance_destroy();	
 }

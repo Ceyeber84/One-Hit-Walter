@@ -5,6 +5,8 @@ vspeed_ = 1;
 hacceleration_ = 0.05;
 vacceleration_ = 0.05;
 max_speed_ = 1.5;
+hspeed_push_ = 0;
+vspeed_push_ = 0;
 
 direction_x = o_walter.x;
 direction_y = o_walter.y;

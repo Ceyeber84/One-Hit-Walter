@@ -5,6 +5,7 @@
     {"id":{"name":"o_walter","path":"objects/o_walter/o_walter.yy",},"order":1,},
     {"id":{"name":"s_swallow","path":"sprites/s_swallow/s_swallow.yy",},"order":2,},
     {"id":{"name":"Collision","path":"scripts/Collision/Collision.yy",},"order":0,},
+    {"id":{"name":"Collision_Push","path":"scripts/Collision_Push/Collision_Push.yy",},"order":1,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":0,},
     {"id":{"name":"s_gun","path":"sprites/s_gun/s_gun.yy",},"order":4,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":0,},
