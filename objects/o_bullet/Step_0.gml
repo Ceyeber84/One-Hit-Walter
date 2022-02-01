@@ -5,6 +5,10 @@ vspeed_ += gravity_;
 x += hspeed_;
 y += vspeed_;
 
-if bounce_counter_ >= 3 {
+if place_meeting(x + hspeed_, y, o_wall) or place_meeting(x, y + vspeed_, o_wall) {
+	event_user(0);
+}
+
+if bounce_counter_ >= 4 {
 	instance_destroy();
 }

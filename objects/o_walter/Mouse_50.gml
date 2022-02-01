@@ -11,7 +11,7 @@ if alarm[0] <= 0 {
 	var x_offset = lengthdir_x(26, dir);
 	var y_offset = lengthdir_y(26, dir);
 	var flipped = 1 + (mouse_x > x) * -2;
-	var gun_x = x + 4 * flipped;
-	instance_create_layer(gun_x + x_offset, y + y_offset - 4, "Instances", o_bullet);
+	var gun_x = x + 6 * flipped;
+	instance_create_layer(gun_x + x_offset, y + y_offset, "Instances", o_bullet);
 	alarm[0] = bullet_cooldown_;
 }

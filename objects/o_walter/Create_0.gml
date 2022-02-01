@@ -9,7 +9,7 @@ max_speed_ = 3;
 //Bullet
 bullet_hspeed_ = 0;
 bullet_vspeed_ = 0;
-bullet_cooldown_ = room_speed / 2.5;
+bullet_cooldown_ = room_speed / 2;
 alarm[0] = bullet_cooldown_;
 
 // Controls

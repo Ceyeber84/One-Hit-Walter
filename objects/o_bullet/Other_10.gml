@@ -1,4 +1,5 @@
 /// @description Bounce / Destroy bullet
+
 // X
 if place_meeting(x + hspeed_, y, o_wall) {
 	while !place_meeting(x + sign(hspeed_), y, o_wall) {
