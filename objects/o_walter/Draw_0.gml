@@ -8,4 +8,4 @@ draw_sprite_ext(s_walter, image_index, x, y, xscale_ * flipped, yscale_, 0, imag
 // Draw the gun
 
 var dir = point_direction(x, y, mouse_x, mouse_y);
-draw_sprite_ext(s_gun, 0, x - 5 * flipped, y, image_xscale, flipped, dir, image_blend, image_alpha); 
+draw_sprite_ext(s_gun, 0, x - 7 * flipped, y, image_xscale, flipped, dir, image_blend, image_alpha); 
