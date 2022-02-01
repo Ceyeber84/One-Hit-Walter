@@ -10,8 +10,9 @@ y += vspeed_;
 
 //States and Collision
 event_user(state);
-Collision();
+Collision_Bounce();
 Collision_Push();
+// Soft Collide
 if !place_meeting(x, y, o_swallow) {
 	hspeed_push_ = lerp(hspeed_push_, 0, .1);
 	vspeed_push_ = lerp(vspeed_push_, 0, .1);

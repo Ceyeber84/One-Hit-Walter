@@ -23,7 +23,9 @@ if vinput = 0 {
 
 // Collisions
 
-Collision();
+// X
+
+Collision_Bounce();
 
 // Update X and Y
 

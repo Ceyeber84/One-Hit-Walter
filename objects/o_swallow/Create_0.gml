@@ -11,6 +11,8 @@ vspeed_push_ = 0;
 direction_x = o_walter.x;
 direction_y = o_walter.y;
 
+depth = 0;
+
 //States
 ATTACK = 0;
 SLOW = 1;

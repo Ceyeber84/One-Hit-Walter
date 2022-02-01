@@ -17,5 +17,5 @@ if place_meeting(x, y + vspeed_push_, other) {
 	}
 	vspeed_push_ = 0;
 }
-y += hspeed_push_;
+y += vspeed_push_;
 }

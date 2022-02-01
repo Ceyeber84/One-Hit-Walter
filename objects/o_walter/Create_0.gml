@@ -6,6 +6,8 @@ vacceleration_ = 0;
 hacceleration_ = 0;
 max_speed_ = 3;
 
+depth = -1;
+
 //Bullet
 bullet_hspeed_ = 0;
 bullet_vspeed_ = 0;
