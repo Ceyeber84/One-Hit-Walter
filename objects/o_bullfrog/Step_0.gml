@@ -1,5 +1,7 @@
 /// @description Movement
 
+// Jump
+
 if instance_exists(o_walter) {
 	if alarm[0] <= 0 {
 		jumping_ = true;
@@ -14,8 +16,7 @@ if instance_exists(o_walter) {
 	}
 }
 
-hspeed_ = clamp(hspeed_, -max_hspeed_, max_hspeed_);
-vspeed_ = clamp(vspeed_, -max_vspeed_, max_vspeed_);
+// Gravity
 
 if !place_meeting(x, y + 1, o_wall) {
 	vspeed_ += gravity_;
@@ -25,9 +26,16 @@ if !place_meeting(x, y + 1, o_wall) {
 	}
 }
 
+// Limit speed
+
+hspeed_ = clamp(hspeed_, -max_hspeed_, max_hspeed_);
+vspeed_ = clamp(vspeed_, -max_vspeed_, max_vspeed_);
+
 Collision();
 
 x += hspeed_;
 y += vspeed_;
+x = floor(x) * (hspeed_ <= 0) + ceil(x) * (hspeed_ > 0);
+y = floor(y) * (vspeed_ <= 0) + ceil(y) * (vspeed_ > 0);
 
 jumping_ = false;
