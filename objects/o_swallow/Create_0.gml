@@ -20,4 +20,4 @@ SLOW = 1;
 state = ATTACK;
 
 //Gameplay
-health_ = 3;
+health_ = 5;

@@ -4,6 +4,7 @@
     {"id":{"name":"s_walter","path":"sprites/s_walter/s_walter.yy",},"order":1,},
     {"id":{"name":"Collision_Bounce","path":"scripts/Collision_Bounce/Collision_Bounce.yy",},"order":2,},
     {"id":{"name":"o_swallow","path":"objects/o_swallow/o_swallow.yy",},"order":2,},
+    {"id":{"name":"Knockback_Push","path":"scripts/Knockback_Push/Knockback_Push.yy",},"order":3,},
     {"id":{"name":"Collision","path":"scripts/Collision/Collision.yy",},"order":1,},
     {"id":{"name":"o_walter","path":"objects/o_walter/o_walter.yy",},"order":1,},
     {"id":{"name":"s_swallow","path":"sprites/s_swallow/s_swallow.yy",},"order":2,},
