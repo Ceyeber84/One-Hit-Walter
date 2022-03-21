@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_frog","path":"sprites/s_frog/s_frog.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_frog",
     "tags": [],
     "resourceType": "GMSequence",
