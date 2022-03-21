@@ -12,5 +12,3 @@ if place_meeting(x + hspeed_, y, o_wall) or place_meeting(x, y + vspeed_, o_wall
 if bounce_counter_ >= 4 {
 	instance_destroy();
 }
-
-direction_ = point_direction(x, y, x + hspeed_, y + vspeed_);
