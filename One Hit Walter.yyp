@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"o_bullfrog","path":"objects/o_bullfrog/o_bullfrog.yy",},"order":4,},
+    {"id":{"name":"o_fly","path":"objects/o_fly/o_fly.yy",},"order":5,},
     {"id":{"name":"s_walter","path":"sprites/s_walter/s_walter.yy",},"order":1,},
     {"id":{"name":"Collision_Bounce","path":"scripts/Collision_Bounce/Collision_Bounce.yy",},"order":2,},
     {"id":{"name":"o_swallow","path":"objects/o_swallow/o_swallow.yy",},"order":2,},
@@ -12,6 +13,7 @@
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":0,},
     {"id":{"name":"s_gun","path":"sprites/s_gun/s_gun.yy",},"order":4,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":0,},
+    {"id":{"name":"s_fly2","path":"sprites/s_fly2/s_fly2.yy",},"order":6,},
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"order":3,},
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},"order":3,},
     {"id":{"name":"r_one","path":"rooms/r_one/r_one.yy",},"order":0,},
