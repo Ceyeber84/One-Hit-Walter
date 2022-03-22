@@ -40,6 +40,9 @@ if instance_exists(o_bullet) {
 		// Dodge
 
 		dodge_direction_ = o_bullet.direction_ + 90 * dodge_dir;
+		if dodge_direction_ > 360 or dodge_direction_ < 0 {
+			dodge_direction_ = dodge_direction_ - 360 * ((dodge_direction_ > 360) - (dodge_direction_ < 0));
+		}
 	}
 }
 
