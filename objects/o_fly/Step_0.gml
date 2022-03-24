@@ -4,7 +4,6 @@ if alarm[0] <= 0 && distance_to_object(o_bullet) < 35 && object_exists(o_bullet)
 	state = DODGE;
 } else {
 	set_angle_ = false;
-	state = HOVER;
 }
 
 event_user(state);
