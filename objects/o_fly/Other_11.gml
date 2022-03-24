@@ -1,5 +1,8 @@
 /// @description Dodge
 
+hspeed_ = 0;
+vspeed_ = 0;
+
 // Calculate if dodge -90 or +90 degrees
 
 // Calculate point A
@@ -54,7 +57,7 @@ if set_angle_ = false {
 }
 hspeed_ = lerp(hspeed_, 0, .3);
 vspeed_ = lerp(vspeed_, 0, .3);
-if (-0.3 < hspeed_ < 0.3) && (-0.3 < vspeed_ < 0.3) {
+if -0.3 < hspeed_ && 0.3 > hspeed_ && -0.3 < vspeed_ && 0.3 > vspeed_ {
 	state = HOVER;
 	alarm[0] = room_speed;
 }
