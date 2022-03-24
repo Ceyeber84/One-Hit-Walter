@@ -1,6 +1,7 @@
 /// @description Initialise the bullet
 
 direction_ = 0;
+origin = [sprite_xoffset, sprite_yoffset];
 
 hspeed_ = o_walter.bullet_hspeed_;
 vspeed_ = o_walter.bullet_vspeed_;

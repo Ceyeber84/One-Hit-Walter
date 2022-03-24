@@ -1,6 +1,7 @@
 /// @description Move the bullet
 
 vspeed_ += gravity_;
+origin = [sprite_xoffset, sprite_yoffset];
 
 x += hspeed_;
 y += vspeed_;
