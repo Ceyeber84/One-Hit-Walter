@@ -1,9 +1,7 @@
 /// @description Movement
 
-if alarm[0] <= 0 && distance_to_object(o_bullet) < 35 && object_exists(o_bullet) {
+if alarm[0] <= 0 && distance_to_object(o_bullet) < 35 {
 	state = DODGE;
-} else {
-	set_angle_ = false;
 }
 
 event_user(state);
