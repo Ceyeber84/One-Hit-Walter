@@ -8,7 +8,7 @@ vspeed_ = 0;
 // Calculate point A
 
 if instance_exists(o_bullet) {
-	if alarm[0] <= 0 {	
+	if set_angle_ = true {	
 		var aanliggend_A = x - o_bullet.x;
 		if o_bullet.vspeed_ != 0 {
 			var alpha_A = arctan(o_bullet.vspeed_ / o_bullet.hspeed_) * 180 / pi;
@@ -46,7 +46,7 @@ if instance_exists(o_bullet) {
 	}
 }
 
-if alarm[0] <= 0 {
+if set_angle_ = false {
 	hspeed_ = lengthdir_x(9, dodge_direction_);
 	vspeed_ = lengthdir_y(9, dodge_direction_);
 }
@@ -56,4 +56,4 @@ if hspeed_ <= 0.3 && vspeed_ <= 0.3 {
 	state = HOVER;
 	alarm[1] = room_speed;
 }
-alarm[0] = room_speed / 30;
+set_angle_ = true;

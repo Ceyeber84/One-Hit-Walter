@@ -16,7 +16,7 @@ health_ = 1000;
 
 // Cooldowns
 
-alarm[0] = room_speed / 30;
+set_angle_ = false;
 alarm[1] = room_speed;
 
 // States
