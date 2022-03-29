@@ -36,7 +36,7 @@ if place_meeting(x, y-1, o_wall) && wall == 1 && !place_meeting(x+1, y, o_wall) 
 //Drop down
 if instance_exists(o_walter) && (x > o_walter.x-3 && x< o_walter.x+3) && place_meeting(x, y-1, o_wall){
 	hspeed_ = 0;
-	variable_instance_set(self, "vspeed_", 2);
+	variable_instance_set(self, "vspeed_", 4);
 }
 
 

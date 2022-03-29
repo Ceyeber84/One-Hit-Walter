@@ -67,8 +67,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "One Hit Walter",
-    "path": "One Hit Walter.yyp",
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
   "name": "TileSet1",
