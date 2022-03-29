@@ -12,6 +12,7 @@
     {"id":{"name":"s_frog","path":"sprites/s_frog/s_frog.yy",},"order":5,},
     {"id":{"name":"Collision_Push","path":"scripts/Collision_Push/Collision_Push.yy",},"order":0,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":0,},
+    {"id":{"name":"r_one","path":"rooms/r_one/r_one.yy",},"order":0,},
     {"id":{"name":"s_gun","path":"sprites/s_gun/s_gun.yy",},"order":4,},
     {"id":{"name":"o_snake","path":"objects/o_snake/o_snake.yy",},"order":6,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":0,},
@@ -20,7 +21,6 @@
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"order":3,},
     {"id":{"name":"s_snake","path":"sprites/s_snake/s_snake.yy",},"order":7,},
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},"order":3,},
-    {"id":{"name":"r_one","path":"rooms/r_one/r_one.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
