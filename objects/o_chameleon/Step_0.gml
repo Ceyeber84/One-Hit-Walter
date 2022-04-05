@@ -7,12 +7,6 @@ if alarm[0] <= 0 {
 	alarm[0] = room_speed * 5;
 }
 
-// Retract tongue
-
-if place_meeting(o_walter.x, o_walter.y, o_cham_tongue) {
-	o_cham_tongue.remove_tongue_ = true;
-}
-
 // Die
 
 if health_ <= 0 {
