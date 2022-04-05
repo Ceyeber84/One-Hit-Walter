@@ -12,7 +12,7 @@ vspeed_ = 1;
 max_hspeed_ = 0;
 max_vspeed_ = 0;
 
-health_ = 1000;
+health_ = 3;
 
 // Cooldowns
 

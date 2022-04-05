@@ -49,13 +49,13 @@ if instance_exists(o_bullet) {
 }
 
 if set_angle_ = false {
-	hspeed_ = lengthdir_x(9, dodge_direction_);
-	vspeed_ = lengthdir_y(9, dodge_direction_);
+	hspeed_ = lengthdir_x(12, dodge_direction_);
+	vspeed_ = lengthdir_y(12, dodge_direction_);
 }
-hspeed_ = lerp(hspeed_, 0, .1);
-vspeed_ = lerp(vspeed_, 0, .1);
+hspeed_ = lerp(hspeed_, 0, .05);
+vspeed_ = lerp(vspeed_, 0, .05);
 if -0.3 < hspeed_ && 0.3 > hspeed_ && -0.3 < vspeed_ && 0.3 > vspeed_ {
 	state = HOVER;
 }
 set_angle_ = true;
-alarm[0] = room_speed;
+alarm[0] = room_speed / 2;
