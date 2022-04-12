@@ -13,6 +13,7 @@
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"s_frog","path":"sprites/s_frog/s_frog.yy",},"order":4,},
     {"id":{"name":"Collision_Push","path":"scripts/Collision_Push/Collision_Push.yy",},"order":0,},
+    {"id":{"name":"o_battery","path":"objects/o_battery/o_battery.yy",},"order":12,},
     {"id":{"name":"o_acid","path":"objects/o_acid/o_acid.yy",},"order":10,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":0,},
     {"id":{"name":"r_one","path":"rooms/r_one/r_one.yy",},"order":0,},
