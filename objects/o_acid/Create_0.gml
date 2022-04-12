@@ -1,2 +1,2 @@
 /// @description Initialise the bullet
-speed = 3
+speed = 2.5
