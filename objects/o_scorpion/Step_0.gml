@@ -27,8 +27,8 @@ x += hspeed_;
 y += vspeed_;
 
 // Create a bullet
-if alarm[0] <= 0 & object_exists(o_walter) {
-	var dir = point_direction(x, y, o_walter.x, o_walter.y)
+if alarm[0] <= 0 && instance_exists(o_walter) {
+	var dir = point_direction(x, y, o_walter.x, o_walter.y);
 	var x_offset = lengthdir_x(26, dir);
 	var y_offset = lengthdir_y(26, dir);
 	var bullet = instance_create_layer(x + x_offset, y + y_offset, "Instances", o_acid);
