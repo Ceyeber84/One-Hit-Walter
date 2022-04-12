@@ -2,7 +2,7 @@
 hspeed_ = 4;
 vspeed_ = 0;
 
-health_ = 1000;
+health_ = 4;
 
 gravity_ = 0.1;
 

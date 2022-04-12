@@ -1,5 +1,10 @@
 /// @description Movement and Attack
 
+//Death
+if health_ <= 0 {
+	instance_destroy();	
+}
+
 //Move along floor
 if x >= room_width/2 && place_meeting(x, y+1, o_wall) && !place_meeting(x+1, y, o_wall){
 	hspeed_ = 2;

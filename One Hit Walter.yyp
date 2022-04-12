@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"o_bullfrog","path":"objects/o_bullfrog/o_bullfrog.yy",},"order":4,},
     {"id":{"name":"o_fly","path":"objects/o_fly/o_fly.yy",},"order":5,},
+    {"id":{"name":"o_enemyparent","path":"objects/o_enemyparent/o_enemyparent.yy",},"order":11,},
     {"id":{"name":"s_walter","path":"sprites/s_walter/s_walter.yy",},"order":1,},
     {"id":{"name":"Collision_Bounce","path":"scripts/Collision_Bounce/Collision_Bounce.yy",},"order":2,},
     {"id":{"name":"o_swallow","path":"objects/o_swallow/o_swallow.yy",},"order":2,},

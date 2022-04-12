@@ -1,6 +1,11 @@
 /// @description movement
 
-// collision
+//Death
+if health_ <= 0 {
+	instance_destroy();	
+}
+
+// Collision
 
 if place_meeting(x + hspeed_, y, o_wall) {
 	do
