@@ -4,6 +4,7 @@ hspeed_ = 0;
 vspeed_ = 0;
 vacceleration_ = 0;
 hacceleration_ = 0;
+battery_acc_ = 1;
 max_speed_ = 3;
 
 depth = -1;
@@ -11,7 +12,7 @@ depth = -1;
 //Bullet
 bullet_hspeed_ = 0;
 bullet_vspeed_ = 0;
-bullet_cooldown_ = room_speed / 2;
+bullet_cooldown_ = room_speed / 1.2;
 alarm[0] = bullet_cooldown_;
 
 // Controls

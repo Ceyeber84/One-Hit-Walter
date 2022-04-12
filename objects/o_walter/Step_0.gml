@@ -3,7 +3,7 @@
 // Update hspeed_
 
 var hinput = keyboard_check(vk_right) - keyboard_check(vk_left)
-hacceleration_ = hinput;
+hacceleration_ = hinput * battery_acc_;
 hspeed_ += .3 * hacceleration_;
 hspeed_ = clamp(hspeed_, -max_speed_, max_speed_);
 if hinput = 0 {
@@ -13,7 +13,7 @@ if hinput = 0 {
 // Update vspeed_
 
 var vinput = keyboard_check(vk_down) - keyboard_check(vk_up)
-vacceleration_ = vinput;
+vacceleration_ = vinput * battery_acc_;
 vspeed_ += .3 * vacceleration_;
 vspeed_ = clamp(vspeed_, -max_speed_, max_speed_);
 if vinput = 0 {

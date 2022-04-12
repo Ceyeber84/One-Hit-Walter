@@ -35,3 +35,7 @@ if alarm[0] <= 0 && instance_exists(o_walter) {
 	bullet.direction = dir
 	alarm[0] = bullet_cooldown_;
 }
+
+if health_ <= 0 {
+	instance_destroy();
+}
