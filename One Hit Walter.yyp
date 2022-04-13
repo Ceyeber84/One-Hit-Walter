@@ -33,6 +33,7 @@
     {"id":{"name":"o_shieldicon","path":"objects/o_shieldicon/o_shieldicon.yy",},"order":13,},
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"order":3,},
     {"id":{"name":"s_tilesetgrass","path":"sprites/s_tilesetgrass/s_tilesetgrass.yy",},"order":8,},
+    {"id":{"name":"s_laserability","path":"sprites/s_laserability/s_laserability.yy",},"order":15,},
     {"id":{"name":"s_laser","path":"sprites/s_laser/s_laser.yy",},"order":14,},
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},"order":9,},
     {"id":{"name":"s_snake","path":"sprites/s_snake/s_snake.yy",},"order":6,},
