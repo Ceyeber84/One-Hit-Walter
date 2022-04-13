@@ -1,3 +1,3 @@
 /// @description Deal damage
 
-other.health_ -= 5;
+other.health_ -= 1;

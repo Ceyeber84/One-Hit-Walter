@@ -1,5 +1,5 @@
 /// @description movement
-
+event_inherited();
 //Death
 if health_ <= 0 {
 	instance_destroy();	
@@ -27,6 +27,7 @@ if place_meeting(x, y + vspeed_, o_wall) {
 	vspeed_ = 0;
 }
 
+hspeed_ = lerp(hspeed_, 4 * sign(hspeed_), .2);
 // Move
 x += hspeed_;
 y += vspeed_;

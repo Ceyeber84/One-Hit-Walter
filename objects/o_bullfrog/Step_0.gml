@@ -1,5 +1,6 @@
 /// @description Movement
 
+event_inherited();
 // Check if on wall
 
 var on_wall = place_meeting(x + 1, y, o_wall) or place_meeting(x - 1, y, o_wall);

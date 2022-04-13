@@ -1,4 +1,5 @@
 /// @description States and Collision
+event_inherited();
 //Check Player Position
 if instance_exists(o_walter) {
 	variable_instance_set(self, "direction_x", o_walter.x);

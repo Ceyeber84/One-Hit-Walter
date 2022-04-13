@@ -5,3 +5,4 @@ vspeed_ = 0;
 wall = 0;
 
 health_ = 4;
+event_inherited();

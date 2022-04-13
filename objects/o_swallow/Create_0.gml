@@ -12,7 +12,7 @@ direction_x = o_walter.x;
 direction_y = o_walter.y;
 
 depth = 0;
-
+event_inherited();
 //States
 ATTACK = 0;
 SLOW = 1;

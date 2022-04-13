@@ -1,5 +1,6 @@
 /// @description Set Variables
 
+event_inherited();
 dodge_direction_ = 0;
 A = [0, 0];
 B = [0, 0];

@@ -1,6 +1,7 @@
 /// @description Initiate the frog
 
 randomise();
+event_inherited();
 
 // Set Jump Cooldown
 

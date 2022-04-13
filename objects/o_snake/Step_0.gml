@@ -1,5 +1,5 @@
 /// @description Movement and Attack
-
+event_inherited();
 //Death
 if health_ <= 0 {
 	instance_destroy();	
