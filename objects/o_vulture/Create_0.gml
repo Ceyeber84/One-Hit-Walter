@@ -1,5 +1,6 @@
 /// @description Initiate
 
+event_inherited();
 depth = 10;
 hspeed_ = 2;
 vspeed_ = 0;

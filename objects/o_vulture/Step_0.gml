@@ -1,5 +1,7 @@
 /// @description States
 
+event_inherited();
+
 //States
 event_user(state);
 
