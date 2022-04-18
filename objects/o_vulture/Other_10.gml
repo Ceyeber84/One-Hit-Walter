@@ -1,5 +1,9 @@
 /// @description Fly
 
-if x > room_width*0.75 {
-	hspeed_ = lerp(hspeed_, 0, 0.03);	
+if x > room_width * 0.85 {
+	hspeed_ -= .04;
+}
+
+if x < room_width * 0.15 {
+	hspeed_ += .04;
 }

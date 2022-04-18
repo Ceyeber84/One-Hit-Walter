@@ -10,16 +10,21 @@ if instance_exists(o_walter) {
 	} else {
 		hspeed_ += hacceleration_ * -lengthdir_x(max_speed_, dir);
 	}
-	hspeed_ = clamp(hspeed_, -max_speed_, max_speed_);
-
+	if hitbyshield_ = false {
+		hspeed_ = clamp(hspeed_, -max_speed_, max_speed_);
+	} else {
+		hspeed_ = lerp(hspeed_, 0, .05);
+	}
 	if !above_player {
 		vspeed_ += vacceleration_ * lengthdir_y(max_speed_, dir);
 	} else {
 		vspeed_ += vacceleration_ * -lengthdir_y(max_speed_, dir);
 	}
-
-	vspeed_ = lengthdir_y(max_speed_, dir);
-
+	if hitbyshield_ = false {
+		vspeed_ = lengthdir_y(max_speed_, dir);
+	} else {
+		vspeed_ = lerp(vspeed_, 0, .05);
+	}
 	//Switch to Slow
 	if 0.1 < hspeed_ < -0.1 && 0.1 < vspeed_ < 0.1 {
 		state = SLOW;	

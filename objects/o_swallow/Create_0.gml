@@ -21,3 +21,5 @@ state = ATTACK;
 
 //Gameplay
 health_ = 5;
+hitbyshield_ = false;
+alarm[0] = 0;

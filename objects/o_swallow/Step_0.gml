@@ -6,6 +6,10 @@ if instance_exists(o_walter) {
 	variable_instance_set(self, "direction_y", o_walter.y);
 }
 
+if alarm[0] <= 0 {
+	hitbyshield_ = false;
+}
+
 x += hspeed_;
 y += vspeed_;
 

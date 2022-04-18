@@ -1,3 +1,6 @@
-/// @description Knocked back
+/// @description Insert description here
+// You can write your code in this editor
 
-Laser_DMG_Knockback();
+// Inherit the parent event
+event_inherited();
+

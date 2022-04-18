@@ -1,5 +1,5 @@
 /// @description Initiate
-orbit_speed_ = 3.5;
+orbit_speed_ = 2.25;
 dir = 20;
 distance = 40;
 

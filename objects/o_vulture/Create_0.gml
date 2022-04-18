@@ -1,6 +1,9 @@
 /// @description Initiate
-hspeed_ = 3;
+
+depth = 10;
+hspeed_ = 2;
 vspeed_ = 0;
+max_hspeed_ = 2;
 
 health_ = 4;
 
@@ -10,4 +13,4 @@ RECOVER = 2;
 
 state = FLY;
 
-alarm[0] = room_speed*5;
+alarm[0] = room_speed * 5;
