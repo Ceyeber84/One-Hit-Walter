@@ -2,6 +2,7 @@
 
 event_inherited();
 depth = 10;
+
 hspeed_ = 2;
 vspeed_ = 0;
 max_hspeed_ = 2;
@@ -14,4 +15,6 @@ RECOVER = 2;
 
 state = FLY;
 
-alarm[0] = room_speed * 5;
+direction_ = 0;
+randomise();
+alarm[0] = random_range(room_speed * 3, room_speed * 6);

@@ -1,14 +1,27 @@
 /// @description States
 
+//I-Frames
 event_inherited();
 
 //States
 event_user(state);
 
-//Move
+if alarm[0] = 1 && instance_exists(o_walter) {
+	variable_instance_set(self, "direction_", point_direction(x,y,o_walter.x,o_walter.y));
+}
 
+if alarm[0] <= 0 && instance_exists(o_walter) {
+	state = ATTACK;	
+}
+
+//Move
 hspeed_ = clamp(hspeed_, -max_hspeed_, max_hspeed_);
 
 Collision_Bounce();
 x += hspeed_;
 y += vspeed_;
+
+//Die
+if health_ <= 0 {
+	instance_destroy()	
+}
