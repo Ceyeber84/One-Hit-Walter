@@ -17,5 +17,8 @@ RECOVER = 2;
 state = FLY;
 
 direction_ = 0;
+x_return = 0;
+y_return = 0;
+
 randomise();
 alarm[0] = random_range(room_speed * 3, room_speed * 6);
