@@ -10,10 +10,6 @@ if alarm[0] = 1 && instance_exists(o_walter) {
 	variable_instance_set(self, "direction_", point_direction(x,y,o_walter.x,o_walter.y));
 }
 
-if alarm[0] <= 0 && instance_exists(o_walter) {
-	state = ATTACK;	
-}
-
 //Move
 hspeed_ = clamp(hspeed_, -max_hspeed_, max_hspeed_);
 

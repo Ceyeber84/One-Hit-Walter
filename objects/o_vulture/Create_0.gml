@@ -6,6 +6,7 @@ depth = 10;
 hspeed_ = 2;
 vspeed_ = 0;
 max_hspeed_ = 2;
+max_vspeed_ = 6;
 
 health_ = 4;
 

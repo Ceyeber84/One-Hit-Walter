@@ -13,3 +13,8 @@ if room_width * 0.2 < x && x < room_width * 0.8 {
 }
 
 vspeed_ = lerp(vspeed_, 0, .1);
+
+
+if alarm[0] <= 0 && instance_exists(o_walter) {
+	state = ATTACK;	
+}
