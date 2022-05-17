@@ -8,3 +8,4 @@ vspeed_ = o_walter.bullet_vspeed_;
 gravity_ = .12;
 
 bounce_counter_ = 0;
+depth = -10;
