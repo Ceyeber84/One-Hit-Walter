@@ -13,6 +13,7 @@ IDLE = 0;
 ATTACK = 1;
 state = IDLE;
 
+max_health_ = 50;
 health_ = 50;
 choose_attack_ = true;
 attack_value_ = 0;
