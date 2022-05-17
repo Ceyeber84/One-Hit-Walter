@@ -1,4 +1,5 @@
 /// @description variables
+randomise();
 hspeed_ = 4;
 vspeed_ = 0;
 
