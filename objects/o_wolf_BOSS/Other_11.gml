@@ -7,7 +7,7 @@
 // 320 by 240
 if choose_attack_ = true {
 	choose_attack_ = false;
-	attack_value_ = irandom_range(1, 1);
+	attack_value_ = irandom_range(pattern_start, pattern_end);
 	alarm[1] = room_speed * 1.5;
 	if attack_value_ = 1 {
 		instance_create_depth(20, 130, -10, o_wolf_warning_long);
@@ -28,7 +28,10 @@ if choose_attack_ = true {
 	}
 }
 
-/*	20 by 450
+/*	20 by 490
+	660 by 450
+	520 by 490
+	-10 by 20
 */
 if alarm[1] <= 0 {
 	if instance_exists(o_wolf_warning_long) {
@@ -38,12 +41,27 @@ if alarm[1] <= 0 {
 		instance_destroy(o_wolf_warning_mid);
 	}
 	if attack_value_ = 1 {
-		instance_create_layer(20, 450, "Instances", o_wolf_arm);
+		instance_create_layer(20, 490, "Instances", o_wolf_arm);
 		o_wolf_arm.dir = 0;
+	}
+	if attack_value_ = 2 {
+		instance_create_layer(660, 460, "Instances", o_wolf_arm);
+		o_wolf_arm.image_angle = 90;
+		o_wolf_arm.dir = 1;
+	}
+	if attack_value_ = 3 {
+		instance_create_layer(520, 490, "Instances", o_wolf_arm);
+		o_wolf_arm.dir = 0;
+	}
+	if attack_value_ = 4 {
+		instance_create_layer(-10, 20, "Instances", o_wolf_arm);
+		o_wolf_arm.dir = 2;
+		o_wolf_arm. image_angle = -90;
 	}
 	if attack_value_ = 5 {
 		mask_index = sprite_index;
 		image_index = 1;
+		alarm[2] = 1.5 * room_speed;
 	}
 	state = IDLE;
 }

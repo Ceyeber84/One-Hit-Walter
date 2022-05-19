@@ -1,5 +1,6 @@
 /// @description Initiate arm
 
+event_inherited();
 move = true;
 dir = 0;
 hspeed_ = 0;
