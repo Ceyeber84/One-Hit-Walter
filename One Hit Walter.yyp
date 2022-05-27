@@ -6,7 +6,7 @@
     {"id":{"name":"o_enemyparent","path":"objects/o_enemyparent/o_enemyparent.yy",},"order":11,},
     {"id":{"name":"s_vulture","path":"sprites/s_vulture/s_vulture.yy",},"order":16,},
     {"id":{"name":"s_walter","path":"sprites/s_walter/s_walter.yy",},"order":1,},
-    {"id":{"name":"s_dungbeetlle","path":"sprites/s_dungbeetlle/s_dungbeetlle.yy",},"order":20,},
+    {"id":{"name":"s_dungbeetle","path":"sprites/s_dungbeetle/s_dungbeetle.yy",},"order":20,},
     {"id":{"name":"Collision_Bounce","path":"scripts/Collision_Bounce/Collision_Bounce.yy",},"order":2,},
     {"id":{"name":"o_swallow","path":"objects/o_swallow/o_swallow.yy",},"order":2,},
     {"id":{"name":"Collision","path":"scripts/Collision/Collision.yy",},"order":1,},

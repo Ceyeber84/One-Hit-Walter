@@ -1,2 +1,5 @@
-/// @description destroy acid
-instance_destroy()
+/// @description destroy dung
+
+if state = SHOOTING {
+	instance_destroy();
+}

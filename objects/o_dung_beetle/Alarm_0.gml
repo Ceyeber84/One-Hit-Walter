@@ -1,0 +1,1 @@
+/// @description Wait to shoot

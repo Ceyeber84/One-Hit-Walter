@@ -1,3 +1,11 @@
 /// @description Initialise the bullet
-speed = 2
-health_ = 1;
+
+hspeed_ = 0;
+vspeed_ = 0;
+gravity_ = .1;
+
+//STATES
+
+ROLLING = 0;
+SHOOTING = 1;
+state = ROLLING;
