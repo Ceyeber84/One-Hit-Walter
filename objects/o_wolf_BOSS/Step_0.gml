@@ -2,8 +2,9 @@
 
 event_inherited();
 
-if health_ <= .4 * max_health_ {
+if health_ <= .5 * max_health_ && phase3triggered = false {
 	state = ANGRY;
+	phase3triggered = true;
 }
 event_user(state);
 

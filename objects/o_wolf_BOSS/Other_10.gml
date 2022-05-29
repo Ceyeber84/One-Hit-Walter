@@ -3,5 +3,5 @@
 if alarm[0] <= 0 {
 	state = ATTACK;
 	choose_attack_ = true;
-	alarm[0] = room_speed * 6;
+	alarm[0] = attack_cooldown_;
 }

@@ -8,7 +8,7 @@
 if choose_attack_ = true {
 	choose_attack_ = false;
 	attack_value_ = irandom_range(pattern_start, pattern_end);
-	alarm[1] = room_speed * 1.5;
+	alarm[1] = warning_duration_;
 	if attack_value_ = 1 {
 		instance_create_depth(20, 130, -10, o_wolf_warning_long);
 	}

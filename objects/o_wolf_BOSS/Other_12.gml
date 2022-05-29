@@ -1,19 +1,6 @@
-/// @description Angry
+/// @description ANGRY
 
-if alarm[0] <= 0 {
-	choose_attack_ = true;
-	alarm[0] = room_speed * 6;
-}
-
-pattern_start = 1;
-pattern_end = 4;
+attack_cooldown_ = room_speed * 3;
+warning_duration_ = room_speed * 1;
 event_user(1);
-
-if alarm[0] <= 0 {
-	choose_attack_ = true;
-	alarm[0] = room_speed * 6;
-}
-
-pattern_start = 5;
-pattern_end = 5;
-event_user(1);
+state = IDLE;

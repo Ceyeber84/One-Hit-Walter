@@ -3,8 +3,13 @@
 event_inherited();
 randomise();
 
+// Cooldowns
+attack_cooldown_ = room_speed * 6;
+warning_duration_ = room_speed * 1.5;
+phase3triggered = false;
+
 image_index = 0;
-alarm[0] = room_speed * 4;
+alarm[0] = attack_cooldown_;
 alarm[1] = 0;
 alarm[2] = 0;
 mask_index = -1;
@@ -18,7 +23,7 @@ state = IDLE;
 
 pattern_start = 1;
 pattern_end = 5;
-health_ = 4;
+health_ = 50;
 max_health_ = health_;
 choose_attack_ = true;
 attack_value_ = 0;
