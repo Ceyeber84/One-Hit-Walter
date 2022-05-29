@@ -32,6 +32,10 @@ Collision_Bounce();
 x += hspeed_;
 y += vspeed_;
 
+if alarm[1] <= 0 {
+	iFrames = false;
+}
+
 if health_ <= 0 {
 instance_destroy();	
 }
