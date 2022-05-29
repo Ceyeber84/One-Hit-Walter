@@ -24,7 +24,7 @@ if choose_attack_ = true {
 		o_wolf_warning_long.image_angle = 270;
 	}
 	if attack_value_ = 5 {
-		instance_create_depth(320, 240, -10, o_wolf_warning_mid);
+		instance_create_depth(x, y, -10, o_wolf_warning_mid);
 	}
 }
 
