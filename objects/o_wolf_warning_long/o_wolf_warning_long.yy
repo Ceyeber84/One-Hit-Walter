@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_boss_warning_long",
-    "path": "sprites/s_boss_warning_long/s_boss_warning_long.yy",
+    "name": "s_wolf_warning_long",
+    "path": "sprites/s_wolf_warning_long/s_wolf_warning_long.yy",
   },
   "solid": false,
   "visible": true,

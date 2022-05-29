@@ -7,6 +7,8 @@ hacceleration_ = 0;
 battery_acc_ = 1;
 max_speed_ = 3;
 iFrames = false;
+slowed = 1;
+prev_slowed = 1;
 
 depth = -1;
 
@@ -14,8 +16,10 @@ depth = -1;
 bullet_hspeed_ = 0;
 bullet_vspeed_ = 0;
 bullet_cooldown_ = room_speed / 2;
+slow_cd = room_speed * 2.5;
 alarm[0] = bullet_cooldown_;
 alarm[1] = 0;
+alarm[2] = slow_cd;
 
 // Controls
 keyboard_set_map(vk_space, vk_up);
