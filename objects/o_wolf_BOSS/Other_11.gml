@@ -41,20 +41,20 @@ if alarm[1] <= 0 {
 		instance_destroy(o_wolf_warning_mid);
 	}
 	if attack_value_ = 1 {
-		instance_create_layer(20, 490, "Instances", o_wolf_arm);
+		instance_create_depth(20, 490, 1, o_wolf_arm);
 		o_wolf_arm.dir = 0;
 	}
 	if attack_value_ = 2 {
-		instance_create_layer(660, 460, "Instances", o_wolf_arm);
+		instance_create_depth(660, 460, 1, o_wolf_arm);
 		o_wolf_arm.image_angle = 90;
 		o_wolf_arm.dir = 1;
 	}
 	if attack_value_ = 3 {
-		instance_create_layer(520, 490, "Instances", o_wolf_arm);
+		instance_create_depth(520, 490, 1, o_wolf_arm);
 		o_wolf_arm.dir = 0;
 	}
 	if attack_value_ = 4 {
-		instance_create_layer(-10, 20, "Instances", o_wolf_arm);
+		instance_create_depth(-10, 20, 1, o_wolf_arm);
 		o_wolf_arm.dir = 2;
 		o_wolf_arm. image_angle = -90;
 	}
