@@ -1,4 +1,4 @@
-/// @description Movement and Damage
+/// @description Movement, Damage and Effects
 
 // Sandstorm Wind Effect
 if instance_exists(o_sandstorm_toggle) && o_sandstorm_toggle.sandstorm_active_ = true {
@@ -14,6 +14,13 @@ if prev_slowed != slowed {
 
 if alarm[2] <= 0 {
 	slowed = 1;
+}
+
+// Disable Abilities
+if alarm[3] >= 0 {
+	ability_disabled_ = true;	
+} else {
+	ability_disabled_ = false;	
 }
 
 // Update hspeed_

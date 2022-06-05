@@ -1,3 +1,3 @@
-/// @description heavy
+/// @description Heavy
 
 heaviness += 1;

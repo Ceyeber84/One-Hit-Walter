@@ -1,7 +1,7 @@
 /// @description Make walter fast
 
 if instance_exists(o_walter) {
-	if unlocked_ && keyboard_check(ord("E")) && alarm[1] <= 0 {
+	if unlocked_ && keyboard_check(ord("E")) && alarm[1] <= 0 && o_walter.ability_disabled_ = false{
 		alarm[0] = room_speed * activity_;
 		alarm[1] = room_speed * cooldown_;
 		o_walter.max_speed_ = 4.5;
