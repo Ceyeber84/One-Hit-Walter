@@ -2,11 +2,9 @@
 
 // Sandstorm Wind Effect
 if instance_exists(o_sandstorm_toggle) && o_sandstorm_toggle.sandstorm_active_ = true {
-	var wind = 1.5;
-	var wind_dir_ = o_sandstorm_toggle.sandstorm_direction_;
+	var wind = 0.2*o_sandstorm_toggle.sandstorm_direction_;
 } else {
-	var wind = 1;
-	var wind_dir_ = 0;
+	var wind = 0;
 }
 
 // Slow Effect
@@ -21,8 +19,8 @@ if alarm[2] <= 0 {
 // Update hspeed_
 var hinput = keyboard_check(vk_right) - keyboard_check(vk_left)
 hacceleration_ = hinput * battery_acc_;
-hspeed_ += .3 * hacceleration_;
-hspeed_ = clamp(hspeed_, -max_speed_ * slowed, max_speed_ * slowed);
+hspeed_ += .3 * hacceleration_ + wind;
+hspeed_ = clamp(hspeed_, -max_speed_ * slowed + wind, max_speed_ * slowed + wind);
 if hinput = 0 {
 	hspeed_ = lerp(hspeed_, 0, .1);
 }
