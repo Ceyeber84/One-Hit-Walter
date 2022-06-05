@@ -1,18 +1,8 @@
 /// @description movement
-event_inherited();
 
-// death
+//Death
 if health_ <= 0 {
 	instance_destroy();	
-}
-
-// Collision
-if place_meeting(x + hspeed_, y, o_wall) {
-	do
-	{
-		x += sign(hspeed_);
-	} until (place_meeting(x + sign(hspeed_), y, o_wall))	
-	hspeed_ = -hspeed_;
 }
 
 // Gravity
@@ -26,7 +16,8 @@ if place_meeting(x, y + vspeed_, o_wall) {
 	}
 	vspeed_ = 0;
 }
-
+// Inherit the parent event
+event_inherited();
 
 // Move
 x += hspeed_;
@@ -39,5 +30,5 @@ if alarm[0] <= 0 && instance_exists(o_walter) {
 	var y_offset = lengthdir_y(26, dir);
 	var bullet = instance_create_layer(x + x_offset, y + y_offset, "Instances", o_saliva);
 	bullet.direction = dir
-	alarm[0] = room_speed
+	alarm[0] = bullet_cooldown_ + random_range(-room_speed, room_speed);
 }
