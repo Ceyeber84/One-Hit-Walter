@@ -1,6 +1,6 @@
 /// @description
 
-sandstorm_active_ = true;
+sandstorm_active_ = false;
 sandstorm_direction_ = 1;
 
 alarm[0] = room_speed*5;

@@ -7,6 +7,10 @@ if instance_exists(o_walter) {
 
 		instance_create_layer(o_walter.x+32, o_walter.y+32, "Instances", o_shield);
 	}
+	
+		if alarm[0] > 0 && o_walter.alarm[3] >= 0 {
+		alarm[0] = 0;	
+	}
 }
 
 if instance_exists(o_shield) && alarm[0] <= 0 {

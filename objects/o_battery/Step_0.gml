@@ -12,4 +12,8 @@ if instance_exists(o_walter) {
 		o_walter.max_speed_ = 3;
 		o_walter.battery_acc_ = 1;
 	}
+	
+	if alarm[0] > 0 && o_walter.alarm[3] >= 0 {
+		alarm[0] = 0;	
+	}
 }
