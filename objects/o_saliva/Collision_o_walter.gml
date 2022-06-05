@@ -1,2 +1,3 @@
-/// @description destroy acid
-instance_destroy()
+/// @description destroy saliva
+
+instance_destroy(self);
