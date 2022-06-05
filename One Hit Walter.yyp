@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"o_bullfrog","path":"objects/o_bullfrog/o_bullfrog.yy",},"order":4,},
     {"id":{"name":"o_wolf_warning_mid","path":"objects/o_wolf_warning_mid/o_wolf_warning_mid.yy",},"order":19,},
+    {"id":{"name":"o_earwig","path":"objects/o_earwig/o_earwig.yy",},"order":27,},
     {"id":{"name":"o_fly","path":"objects/o_fly/o_fly.yy",},"order":5,},
     {"id":{"name":"o_enemyparent","path":"objects/o_enemyparent/o_enemyparent.yy",},"order":9,},
     {"id":{"name":"s_vulture","path":"sprites/s_vulture/s_vulture.yy",},"order":16,},
@@ -48,7 +49,9 @@
     {"id":{"name":"s_fly","path":"sprites/s_fly/s_fly.yy",},"order":5,},
     {"id":{"name":"s_spider","path":"sprites/s_spider/s_spider.yy",},"order":24,},
     {"id":{"name":"s_shieldicon","path":"sprites/s_shieldicon/s_shieldicon.yy",},"order":12,},
+    {"id":{"name":"n_todolist","path":"notes/n_todolist/n_todolist.yy",},"order":0,},
     {"id":{"name":"s_bosshealthbar","path":"sprites/s_bosshealthbar/s_bosshealthbar.yy",},"order":24,},
+    {"id":{"name":"s_earwig","path":"sprites/s_earwig/s_earwig.yy",},"order":26,},
     {"id":{"name":"o_scorpion","path":"objects/o_scorpion/o_scorpion.yy",},"order":7,},
     {"id":{"name":"o_shieldicon","path":"objects/o_shieldicon/o_shieldicon.yy",},"order":11,},
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"order":3,},

@@ -1,0 +1,8 @@
+O_EARWIG:
+	1)	sound effect for hitting shell only plays if
+		health_ != previous health_
+	2)	make hitboxes for taking damage, use sensors
+
+- Move Wolf Health Bar down
+- Finish Sandstorm
+- @fine_boi finish Snake maybe?
