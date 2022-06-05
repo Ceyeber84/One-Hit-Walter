@@ -1,6 +1,6 @@
 /// @description variables
 hspeed_ = 5;
-vspeed_ = 0;
+vspeed_ = 0.1;
 speed_ = 6;
 health_ = 100;
 glide_cooldown_ = room_speed * 3;
