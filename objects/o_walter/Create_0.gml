@@ -9,6 +9,7 @@ max_speed_ = 3;
 iFrames = false;
 slowed = 1;
 prev_slowed = 1;
+heaviness = 1;
 
 depth = -1;
 

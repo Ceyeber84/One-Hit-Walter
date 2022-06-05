@@ -22,11 +22,11 @@ if hinput = 0 {
 
 var vinput = keyboard_check(vk_down) - keyboard_check(vk_up)
 vacceleration_ = vinput * battery_acc_;
-vspeed_ += .3 * vacceleration_;
+vspeed_ += .3 * vacceleration_ / heaviness;
 vspeed_ = clamp(vspeed_, -max_speed_ * slowed, max_speed_ * slowed);
 if vinput = 0 {
 	vspeed_ = lerp(vspeed_, 0, .1);
-	vspeed_ += .1;
+	vspeed_ += .1 * heaviness;
 }
 
 // Slow
