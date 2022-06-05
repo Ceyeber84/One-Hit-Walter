@@ -1,5 +1,15 @@
 /// @description Movement and Damage
 
+// Sandstorm Wind Effect
+if instance_exists(o_sandstorm_toggle) && o_sandstorm_toggle.sandstorm_active_ = true {
+	var wind = 1.5;
+	var wind_dir_ = o_sandstorm_toggle.sandstorm_direction_;
+} else {
+	var wind = 1;
+	var wind_dir_ = 0;
+}
+
+// Slow Effect
 if prev_slowed != slowed {
 	alarm[2] = slow_cd;
 }
@@ -9,7 +19,6 @@ if alarm[2] <= 0 {
 }
 
 // Update hspeed_
-
 var hinput = keyboard_check(vk_right) - keyboard_check(vk_left)
 hacceleration_ = hinput * battery_acc_;
 hspeed_ += .3 * hacceleration_;

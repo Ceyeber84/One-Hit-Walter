@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"o_bullfrog","path":"objects/o_bullfrog/o_bullfrog.yy",},"order":4,},
     {"id":{"name":"o_wolf_warning_mid","path":"objects/o_wolf_warning_mid/o_wolf_warning_mid.yy",},"order":19,},
+    {"id":{"name":"o_sandstorm_toggle","path":"objects/o_sandstorm_toggle/o_sandstorm_toggle.yy",},"order":31,},
     {"id":{"name":"o_earwig","path":"objects/o_earwig/o_earwig.yy",},"order":27,},
     {"id":{"name":"o_fly","path":"objects/o_fly/o_fly.yy",},"order":5,},
     {"id":{"name":"o_enemyparent","path":"objects/o_enemyparent/o_enemyparent.yy",},"order":9,},
