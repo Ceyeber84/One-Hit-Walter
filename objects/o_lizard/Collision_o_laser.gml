@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Take Damage
 
-// Inherit the parent event
-event_inherited();
-
+Laser_DMG_Knockback(1);
