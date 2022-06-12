@@ -15,3 +15,4 @@ if bounce_counter_ >= 4 {
 }
 
 direction_ = point_direction(x, y, x + hspeed_, y + vspeed_);
+projectile_spin(hspeed_);

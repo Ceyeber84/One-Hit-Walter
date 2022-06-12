@@ -56,6 +56,7 @@
     {"id":{"name":"o_saliva","path":"objects/o_saliva/o_saliva.yy",},"order":28,},
     {"id":{"name":"s_gun","path":"sprites/s_gun/s_gun.yy",},"order":3,},
     {"id":{"name":"o_snake","path":"objects/o_snake/o_snake.yy",},"order":6,},
+    {"id":{"name":"projectile_spin","path":"scripts/projectile_spin/projectile_spin.yy",},"order":4,},
     {"id":{"name":"o_dung","path":"objects/o_dung/o_dung.yy",},"order":22,},
     {"id":{"name":"o_magma_delver_BOSS","path":"objects/o_magma_delver_BOSS/o_magma_delver_BOSS.yy",},"order":35,},
     {"id":{"name":"s_sensor","path":"sprites/s_sensor/s_sensor.yy",},"order":23,},
