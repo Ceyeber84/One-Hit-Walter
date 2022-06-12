@@ -6,3 +6,4 @@ O_EARWIG:
 - Move Wolf Health Bar down
 - @fine_boi finish Snake maybe?
 - Make heaviness end at end of room
+- Locked Abilities

@@ -15,3 +15,8 @@ alarm[0] = 0;
 LURK = 0;
 JUMP = 1;
 state = JUMP;
+
+// Hitbox locations
+
+A[0, 1] = [x, y];
+B[0, 1] = [x, y];
