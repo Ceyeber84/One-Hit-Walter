@@ -57,7 +57,7 @@ x += hspeed_;
 y += vspeed_;
 
 if alarm[1] <= 0 {
-	iFrames = false;
+	iFrames = false;;
 }
 
 if health_ <= 0 {

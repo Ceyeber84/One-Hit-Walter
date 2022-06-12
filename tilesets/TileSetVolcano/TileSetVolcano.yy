@@ -36,7 +36,7 @@
         22,
         23,
         8,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_volcano","tags":[],"resourceType":"GMAutoTileSet",},
+      ],"closed_edge":true,"resourceVersion":"1.0","name":"autotile_volcano","tags":[],"resourceType":"GMAutoTileSet",},
   ],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,

@@ -20,11 +20,11 @@ with (o_sensor) {
 			o_walter.alarm[1] = room_speed;
 			o_walter.iFrames = true;
 		}
-	var bullet = instance_place(x, y, o_bullet);
-	if place_meeting(x, y, bullet) {
-		o_wolf_BOSS.health_ -= 1;
-		instance_destroy(bullet);
-	}
+		var bullet = instance_place(x, y, o_bullet);
+			if place_meeting(x, y, bullet) {
+			o_wolf_BOSS.health_ -= 1;
+			instance_destroy(bullet);
+		}
 	}
 }
 

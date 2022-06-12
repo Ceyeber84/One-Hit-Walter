@@ -1,7 +1,12 @@
 /// @description Initiate delver
 
+visible = false;
+
 event_inherited();
 health_ = 10;
+hspeed_ = 0;
+vspeed_ = 0;
+direction_ = 0;
 
 shoot_cd = room_speed * 4;
 alarm[0] = shoot_cd;
