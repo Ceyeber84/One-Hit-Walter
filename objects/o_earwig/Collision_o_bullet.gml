@@ -8,5 +8,4 @@ if (point_distance(other.x, other.y, A[0], A[1]) <= 20) or (point_distance(other
 		i_frames_ = true;
 	}
 }
-show_debug_message(health_);
 instance_destroy(other);
