@@ -1,6 +1,6 @@
 /// @description Initiate delver
 
-visible = false;
+visible = true;
 
 event_inherited();
 health_ = 10;

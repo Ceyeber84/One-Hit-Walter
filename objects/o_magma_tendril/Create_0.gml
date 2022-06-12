@@ -6,6 +6,7 @@ direction_ = o_magma_delver_BOSS.direction_;
 move_back = 0;
 back_enabled = false;
 destroy_enabled = false;
+hit_delversolid = false;
 mask_index = -1;
 hspeed_ = lengthdir_x(5, direction_);
 vspeed_ = lengthdir_y(5, direction_);

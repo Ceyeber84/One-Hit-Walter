@@ -2,11 +2,12 @@
 
 event_inherited();
 
-if distance_to_object(o_delversolid) <= 20 && back_enabled = false {
+if hit_delversolid = true && back_enabled = false {
 	hspeed_ = 0;
 	vspeed_ = 0;
 	alarm[1] = room_speed;
 	back_enabled = true;
+	hit_delversolid = false;
 }
 
 if hspeed_ != 0 && vspeed_ != 0 {
@@ -38,6 +39,7 @@ o_sensor.y = y;
 o_sensor.image_angle = image_angle;
 o_sensor.image_xscale = 25;
 o_sensor.image_yscale = 600 / sprite_get_height(s_sensor);
+
 with (o_sensor) {
 	if instance_exists(o_walter) {
 		if place_meeting(x, y, o_walter) && o_walter.iFrames = false {
@@ -50,5 +52,8 @@ with (o_sensor) {
 			o_magma_delver_BOSS.health_ -= 1;
 			instance_destroy(bullet);
 		}
+	}
+	if place_meeting(x, y, o_delversolid) {
+		o_magma_tendril.hit_delversolid = true;
 	}
 }
