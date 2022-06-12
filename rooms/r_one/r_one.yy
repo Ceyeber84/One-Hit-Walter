@@ -21,6 +21,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_delversolid","path":"objects/o_delversolid/o_delversolid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":40.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_BDAF76E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_delversolid","path":"objects/o_delversolid/o_delversolid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":29.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":624.0,"y":16.0,"resourceVersion":"1.0","name":"inst_571F00DB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_delversolid","path":"objects/o_delversolid/o_delversolid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":29.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":16.0,"resourceVersion":"1.0","name":"inst_54F4C729","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_spider","path":"objects/o_spider/o_spider.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":272.0,"y":224.0,"resourceVersion":"1.0","name":"inst_728AD4A6","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Walls","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"TileSetGrass","path":"tilesets/TileSetGrass/TileSetGrass.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":15,"TileSerialiseData":[
 17,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,13,
@@ -65,6 +66,7 @@
     {"name":"inst_BDAF76E","path":"rooms/r_one/r_one.yy",},
     {"name":"inst_571F00DB","path":"rooms/r_one/r_one.yy",},
     {"name":"inst_54F4C729","path":"rooms/r_one/r_one.yy",},
+    {"name":"inst_728AD4A6","path":"rooms/r_one/r_one.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
