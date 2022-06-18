@@ -61,7 +61,8 @@ with (o_sensor) {
 				o_magma_tendril.health_ = 0;
 			}
 		}
-	}
+}
+
 	if place_meeting(x, y, o_delversolid) {
 		o_magma_tendril.hit_delversolid = true;
 	}
