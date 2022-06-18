@@ -56,13 +56,9 @@ with (o_sensor) {
 		
 		var laser = instance_place(x, y, o_laser);
 		if place_meeting(x, y, laser) && instance_exists(o_magma_delver_BOSS) {
-			Laser_DMG_Knockback(0, o_magma_delver_BOSS, o_magma_tendril);
-			if instance_exists(o_magma_delver_BOSS) {
-				o_magma_delver_BOSS.health_ += o_magma_tendril.health_;
-				o_magma_tendril.health_ = 0;
-			}
+			Laser_DMG_Knockback(0, o_magma_delver_BOSS, o_magma_delver_BOSS);
 		}
-}
+	}
 
 	if place_meeting(x, y, o_delversolid) {
 		o_magma_tendril.hit_delversolid = true;
