@@ -1,3 +1,3 @@
 /// @description Take Damage
 
-Laser_DMG_Knockback(1);
+Laser_DMG_Knockback(1, self, self);

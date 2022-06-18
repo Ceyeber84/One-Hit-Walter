@@ -47,10 +47,19 @@ with (o_sensor) {
 			o_walter.alarm[1] = room_speed;
 			o_walter.iFrames = true;
 		}
+		
 		var bullet = instance_place(x, y, o_bullet);
 		if place_meeting(x, y, bullet) && instance_exists(o_magma_delver_BOSS) {
 			o_magma_delver_BOSS.health_ -= 1;
 			instance_destroy(bullet);
+		}
+		
+		if place_meeting(x, y, o_laser) && instance_exists(o_magma_delver_BOSS) {
+			Laser_DMG_Knockback(0, o_magma_delver_BOSS, o_magma_tendril);
+			if instance_exists(o_magma_delver_BOSS) {
+				o_magma_delver_BOSS.health_ += o_magma_tendril.health_;
+				o_magma_tendril.health_ = 0;
+			}
 		}
 	}
 	if place_meeting(x, y, o_delversolid) {

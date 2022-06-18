@@ -1,2 +1,2 @@
 /// @description destroy acid
-instance_destroy()
+instance_destroy();

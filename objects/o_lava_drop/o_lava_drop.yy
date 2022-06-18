@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "s_magma_tendril",
-    "path": "sprites/s_magma_tendril/s_magma_tendril.yy",
+    "name": "s_lava_drop",
+    "path": "sprites/s_lava_drop/s_lava_drop.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_enemyparent",
-    "path": "objects/o_enemyparent/o_enemyparent.yy",
+    "name": "o_enemybulletparent",
+    "path": "objects/o_enemybulletparent/o_enemybulletparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,9 +26,9 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_walter","path":"objects/o_walter/o_walter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -37,7 +37,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_magma_tendril",
+  "name": "o_lava_drop",
   "tags": [],
   "resourceType": "GMObject",
 }
