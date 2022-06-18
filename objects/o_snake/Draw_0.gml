@@ -15,14 +15,14 @@ if hspeed_ != 0 {
 }
 */
 draw_self();
-
+/*
 if vspeed_ != 0 {
 	image_angle = 90;	
 } else if y < room_height/2 {
 	image_angle = 0;	
 } else {
 	image_angle = 0;	
-}
+}*/
 
 
 //draw_sprite_ext(s_snake,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
