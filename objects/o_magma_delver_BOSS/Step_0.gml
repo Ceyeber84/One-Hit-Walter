@@ -15,5 +15,3 @@ if alarm[0] <= 0 {
 if health_ <= 0 {
 	instance_destroy(self);
 }
-
-show_debug_message(health_);
