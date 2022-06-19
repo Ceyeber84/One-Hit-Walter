@@ -1,23 +1,26 @@
 /// @description Movement & Attack
 
-//I-Frames
 event_inherited();
+event_user(state);
 
-//Movement
-if instance_exists(o_walter) && state = STANDARD{
-	if alarm[0] > 0{
-		y = o_walter.y;
-	}
-	
-	if alarm[0] <= 0 {
-		hspeed_ = attack_speed_;	
-	}
-	
-	if alarm[0] <= 0 && x >= room_width*1.7 && sign(hspeed_) != -1{
-		hspeed_ = 0;
-		alarm[0] = attack_cooldown_;
-	}
+//Movement 
+/*
+if x > room_width*1.45 {
+	variable_instance_set(self, "side", 1);
 }
+if x < -room_width*0.65 {
+	variable_instance_set(self, "side", -1);
+} */
+	
+	/*
+	if alarm[0] <= 0 && x <= room_width*1.5{
+		hspeed_ = attack_speed_ * -side;
+	}
+	
+	if x >= room_width*1.5 && alarm[0] <= 15{
+		alarm[0] = attack_cooldown_;
+	}*/
+
 
 
 x += hspeed_;
