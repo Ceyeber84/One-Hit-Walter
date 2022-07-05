@@ -14,3 +14,9 @@ if alarm[1] >= 0 {
 	draw_set_color(c_white);
 	draw_set_alpha(1);
 }
+
+if instance_exists(o_walter) {
+	if o_walter.ability_disabled_ = true {
+		draw_sprite(s_redcross,image_index,x,y);	
+	}
+}

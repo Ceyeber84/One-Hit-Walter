@@ -60,6 +60,7 @@
     {"id":{"name":"s_lion","path":"sprites/s_lion/s_lion.yy",},"order":32,},
     {"id":{"name":"o_magma_block","path":"objects/o_magma_block/o_magma_block.yy",},"order":39,},
     {"id":{"name":"r_one","path":"rooms/r_one/r_one.yy",},"order":0,},
+    {"id":{"name":"s_redcross","path":"sprites/s_redcross/s_redcross.yy",},"order":42,},
     {"id":{"name":"o_goblin","path":"objects/o_goblin/o_goblin.yy",},"order":30,},
     {"id":{"name":"o_saliva","path":"objects/o_saliva/o_saliva.yy",},"order":28,},
     {"id":{"name":"s_gun","path":"sprites/s_gun/s_gun.yy",},"order":3,},
