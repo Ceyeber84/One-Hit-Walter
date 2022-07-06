@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_walter",
-    "path": "sprites/s_walter/s_walter.yy",
+    "name": "s_walter_idle",
+    "path": "sprites/s_walter_idle/s_walter_idle.yy",
   },
   "solid": false,
   "visible": true,
