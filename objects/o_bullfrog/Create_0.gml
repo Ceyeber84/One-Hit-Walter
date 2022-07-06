@@ -13,6 +13,7 @@ gravity_ = 0.1;
 max_hspeed_ = 7;
 max_vspeed_ = 8.5;
 health_ = 10;
+facing_ = -1;
 
 depth = 0;
 
