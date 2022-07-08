@@ -13,14 +13,14 @@ if instance_exists(o_dung) {
 }
 
 // Switch States
-
-if o_dung.image_xscale >= 3 {
-	state = SHOOTING;
-	o_dung.state = SHOOTING;
-	saved_speed_ = sign(hspeed_);
-	hspeed_ = 0;
-	move = false;
-	alarm[0] = room_speed;
+if instance_exists(o_dung) {
+	if o_dung.image_xscale >= 3 {
+		state = SHOOTING;
+		o_dung.state = SHOOTING;
+		saved_speed_ = sign(hspeed_);
+		hspeed_ = 0;
+		move = false;
+		alarm[0] = room_speed;
+	}
 }
-
 decide_dir = true;
