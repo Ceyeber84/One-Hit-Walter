@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_sandstorm_toggle",
+  "name": "o_game",
   "tags": [],
   "resourceType": "GMObject",
 }

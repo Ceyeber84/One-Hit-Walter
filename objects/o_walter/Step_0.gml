@@ -1,8 +1,8 @@
 /// @description Movement, Damage and Effects
 
 // Sandstorm Wind Effect
-if instance_exists(o_sandstorm_toggle) && o_sandstorm_toggle.sandstorm_active_ = true {
-	var wind = 0.2*o_sandstorm_toggle.sandstorm_direction_;
+if instance_exists(o_game) && o_game.sandstorm_active_ = true {
+	var wind = 0.2*o_game.sandstorm_direction_;
 } else {
 	var wind = 0;
 }
