@@ -14,14 +14,7 @@ if alarm[0] <0 {
 			instance_destroy(self);
 		}
 	}
-	/*else {
+	else {
 		instance_destroy();	
-	}*/
-}
-
-//Debug
-if alarm[9] <= 0 {
-	show_debug_message(creator_id);
-
-	alarm[9] = room_speed/2;
+	}
 }

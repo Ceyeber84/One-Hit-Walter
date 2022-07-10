@@ -6,17 +6,17 @@ if move = true {
 
 // Grow Ball
 
-if instance_exists(o_dung) {
-	o_dung.x = x + 17 * sign(hspeed_);
-	o_dung.image_xscale += .01;
-	o_dung.image_yscale += .01;
+if instance_exists(dung_id) {
+	dung_id.x = x + 17 * sign(hspeed_);
+	dung_id.image_xscale += .01;
+	dung_id.image_yscale += .01;
 }
 
 // Switch States
-if instance_exists(o_dung) {
-	if o_dung.image_xscale >= 3 {
+if instance_exists(dung_id) {
+	if dung_id.image_xscale >= 3 {
 		state = SHOOTING;
-		o_dung.state = SHOOTING;
+		dung_id.state = SHOOTING;
 		saved_speed_ = sign(hspeed_);
 		hspeed_ = 0;
 		move = false;
@@ -24,3 +24,4 @@ if instance_exists(o_dung) {
 	}
 }
 decide_dir = true;
+
