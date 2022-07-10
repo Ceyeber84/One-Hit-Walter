@@ -8,5 +8,10 @@ if alarm[0] <= 0 {
 
 //Next Room
 if !instance_exists(o_enemyparent) {
-	room_goto_next()	
+	if room_next(room) != -1 {
+		room_goto_next()	
+	}
+	/*else {
+		game_end();	
+	}*/
 }
