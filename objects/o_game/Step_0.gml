@@ -15,3 +15,12 @@ if !instance_exists(o_enemyparent) {
 		game_end();	
 	}*/
 }
+
+//Debug
+var width = surface_get_width(application_surface);
+var height = surface_get_height(application_surface);
+if alarm[1] <= 0 {
+	show_debug_message(width);
+	show_debug_message(height);	
+	alarm[1] = room_speed;
+}
