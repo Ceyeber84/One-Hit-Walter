@@ -13,5 +13,6 @@ if alarm[0] <= 0 {
 	var flipped = 1 + (mouse_x > x) * -2;
 	var gun_x = x + 6 * flipped;
 	instance_create_layer(gun_x + x_offset, y + y_offset, "Instances", o_bullet);
+	audio_play_sound(so_gunshoot_demo, 8, false);
 	alarm[0] = bullet_cooldown_;
 }

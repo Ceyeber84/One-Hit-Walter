@@ -17,6 +17,7 @@ if (roomname != "a_title_screen") && (roomname != "b_abilityselect1") && (roomna
 	}
 }
 
+
 //Debug
 /*var width = surface_get_width(application_surface);
 var height = surface_get_height(application_surface);

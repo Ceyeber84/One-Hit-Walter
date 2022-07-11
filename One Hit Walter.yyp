@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"s_zzability_shieldicon","path":"sprites/s_zzability_shieldicon/s_zzability_shieldicon.yy",},"order":56,},
+    {"id":{"name":"so_lasershoot_demo","path":"sounds/so_lasershoot_demo/so_lasershoot_demo.yy",},"order":2,},
     {"id":{"name":"o_bullfrog","path":"objects/o_bullfrog/o_bullfrog.yy",},"order":4,},
     {"id":{"name":"s_zzability_batterydesc","path":"sprites/s_zzability_batterydesc/s_zzability_batterydesc.yy",},"order":50,},
     {"id":{"name":"o_wolf_warning_mid","path":"objects/o_wolf_warning_mid/o_wolf_warning_mid.yy",},"order":19,},
@@ -30,6 +31,7 @@
     {"id":{"name":"s_wolf_warning_mid","path":"sprites/s_wolf_warning_mid/s_wolf_warning_mid.yy",},"order":18,},
     {"id":{"name":"s_dung","path":"sprites/s_dung/s_dung.yy",},"order":22,},
     {"id":{"name":"o_wolf_BOSS","path":"objects/o_wolf_BOSS/o_wolf_BOSS.yy",},"order":17,},
+    {"id":{"name":"so_gunshoot_demo","path":"sounds/so_gunshoot_demo/so_gunshoot_demo.yy",},"order":3,},
     {"id":{"name":"o_zzmenu_startgame","path":"objects/o_zzmenu_startgame/o_zzmenu_startgame.yy",},"order":43,},
     {"id":{"name":"o_walter","path":"objects/o_walter/o_walter.yy",},"order":1,},
     {"id":{"name":"s_tilesetvolcano","path":"sprites/s_tilesetvolcano/s_tilesetvolcano.yy",},"order":34,},
@@ -40,6 +42,7 @@
     {"id":{"name":"o_wolf_warning_long","path":"objects/o_wolf_warning_long/o_wolf_warning_long.yy",},"order":18,},
     {"id":{"name":"s_snail","path":"sprites/s_snail/s_snail.yy",},"order":62,},
     {"id":{"name":"s_zztutorial_enemytext","path":"sprites/s_zztutorial_enemytext/s_zztutorial_enemytext.yy",},"order":63,},
+    {"id":{"name":"so_musicworld1_demo","path":"sounds/so_musicworld1_demo/so_musicworld1_demo.yy",},"order":1,},
     {"id":{"name":"s_lava_drop","path":"sprites/s_lava_drop/s_lava_drop.yy",},"order":40,},
     {"id":{"name":"s_delversolid","path":"sprites/s_delversolid/s_delversolid.yy",},"order":37,},
     {"id":{"name":"s_walter_moving","path":"sprites/s_walter_moving/s_walter_moving.yy",},"order":44,},
@@ -55,6 +58,7 @@
     {"id":{"name":"o_wolf_arm","path":"objects/o_wolf_arm/o_wolf_arm.yy",},"order":21,},
     {"id":{"name":"s_zzability_lasericon","path":"sprites/s_zzability_lasericon/s_zzability_lasericon.yy",},"order":57,},
     {"id":{"name":"o_laser","path":"objects/o_laser/o_laser.yy",},"order":15,},
+    {"id":{"name":"so_musicwolf_demo","path":"sounds/so_musicwolf_demo/so_musicwolf_demo.yy",},"order":0,},
     {"id":{"name":"flip_sprite","path":"scripts/flip_sprite/flip_sprite.yy",},"order":5,},
     {"id":{"name":"room_1_2","path":"rooms/room_1_2/room_1_2.yy",},"order":2,},
     {"id":{"name":"s_frog","path":"sprites/s_frog/s_frog.yy",},"order":4,},
@@ -84,6 +88,7 @@
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":0,},
     {"id":{"name":"s_zzability_lasertext","path":"sprites/s_zzability_lasertext/s_zzability_lasertext.yy",},"order":53,},
     {"id":{"name":"s_lion","path":"sprites/s_lion/s_lion.yy",},"order":32,},
+    {"id":{"name":"z_wolfboss","path":"rooms/z_wolfboss/z_wolfboss.yy",},"order":6,},
     {"id":{"name":"o_magma_block","path":"objects/o_magma_block/o_magma_block.yy",},"order":39,},
     {"id":{"name":"room_1_1","path":"rooms/room_1_1/room_1_1.yy",},"order":1,},
     {"id":{"name":"s_walteroriginal","path":"sprites/s_walteroriginal/s_walteroriginal.yy",},"order":43,},
@@ -147,6 +152,7 @@
     {"roomId":{"name":"c_tutorial","path":"rooms/c_tutorial/c_tutorial.yy",},},
     {"roomId":{"name":"room_1_1","path":"rooms/room_1_1/room_1_1.yy",},},
     {"roomId":{"name":"room_1_2","path":"rooms/room_1_2/room_1_2.yy",},},
+    {"roomId":{"name":"z_wolfboss","path":"rooms/z_wolfboss/z_wolfboss.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -170,7 +176,9 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"OHW_Boss_Music_2.3","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2022.2.1.618",
   },

@@ -12,4 +12,4 @@ draw_sprite_ext(s_zzmenu_startgame,image_index,x,y,image_xscale,image_yscale,ima
 
 //Draw Gun
 var dir = point_direction(521, 282, mouse_x, mouse_y);
-draw_sprite_ext(s_gun, 0, 521, 282, 4, 4, dir, image_blend, image_alpha);
+draw_sprite_ext(s_gun, 0, 521, 282, 4, -4, dir, image_blend, image_alpha);
