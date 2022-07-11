@@ -12,8 +12,13 @@ if instance_exists(o_walter) {
 			if alarm[0] > 0 && o_walter.alarm[3] >= 0 {
 			alarm[0] = 0;	
 		}
+	} else {
+		instance_destroy();	
 	}
 }
+
+
+
 if instance_exists(o_shield) && alarm[0] <= 0 {
 	instance_destroy(o_shield);
 }

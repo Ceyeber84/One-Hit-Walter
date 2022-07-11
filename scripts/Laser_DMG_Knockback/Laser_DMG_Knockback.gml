@@ -5,6 +5,6 @@ if iobject.i_frames_ = false {
 	iobject.i_frames_ = true;
 	hobject.hspeed_ += lengthdir_x(6.5, o_laser.direction_) * knockback;
 	hobject.vspeed_ += lengthdir_y(6.5, o_laser.direction_) * knockback;
-	show_debug_message(knockback);
+	//show_debug_message(knockback);
 }
 }

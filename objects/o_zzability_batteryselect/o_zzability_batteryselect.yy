@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_zzmenu_startgame",
-    "path": "sprites/s_zzmenu_startgame/s_zzmenu_startgame.yy",
+    "name": "s_zzability_batteryicon",
+    "path": "sprites/s_zzability_batteryicon/s_zzability_batteryicon.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_zzmenu_startgame",
+  "name": "o_zzability_batteryselect",
   "tags": [],
   "resourceType": "GMObject",
 }

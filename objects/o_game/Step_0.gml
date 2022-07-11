@@ -7,13 +7,14 @@ if alarm[0] <= 0 {
 }
 
 //Next Room
-if !instance_exists(o_enemyparent) {
-	if room_next(room) != -1 {
-		room_goto_next()	
+var roomname = room_get_name(room);
+
+if (roomname != "a_title_screen") && (roomname != "b_abilityselect1") {
+	if !instance_exists(o_enemyparent) {
+		if room_next(room) != -1 {
+			room_goto_next()	
+		}
 	}
-	/*else {
-		game_end();	
-	}*/
 }
 
 //Debug

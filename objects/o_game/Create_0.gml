@@ -1,9 +1,9 @@
 /// @description
 
 //Abilities
-global.laser_unlocked_ = true;
-global.shield_unlocked_ = true
-global.battery_unlocked_ = true;
+global.laser_unlocked_ = false;
+global.shield_unlocked_ = false;
+global.battery_unlocked_ = false;
 
 //Sandstorm
 sandstorm_active_ = false;
