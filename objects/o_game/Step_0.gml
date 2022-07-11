@@ -9,7 +9,7 @@ if alarm[0] <= 0 {
 //Next Room
 var roomname = room_get_name(room);
 
-if (roomname != "a_title_screen") && (roomname != "b_abilityselect1") {
+if (roomname != "a_title_screen") && (roomname != "b_abilityselect1") && (roomname != "c_tutorial") {
 	if !instance_exists(o_enemyparent) {
 		if room_next(room) != -1 {
 			room_goto_next()	
