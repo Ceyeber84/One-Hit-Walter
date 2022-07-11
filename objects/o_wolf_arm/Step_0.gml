@@ -2,6 +2,10 @@
 
 event_inherited();
 
+if !instance_exists(o_wolf_BOSS) {
+	instance_destroy();	
+}
+
 // Set up Sensor
 
 if !instance_exists(o_sensor) {

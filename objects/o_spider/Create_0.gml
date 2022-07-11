@@ -12,4 +12,4 @@ direction_ = 0;
 web_cd = room_speed * 3;
 alarm[0] = web_cd;
 
-health_ = 20;
+health_ = 6;

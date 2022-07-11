@@ -12,7 +12,7 @@ prev_slowed = 1;
 heaviness = 0;
 ability_disabled_ = false;
 
-depth = -1;
+depth = -200;
 
 //Bullet
 bullet_hspeed_ = 0;
@@ -32,4 +32,4 @@ keyboard_set_map(ord("S"), vk_down);
 keyboard_set_map(ord("D"), vk_right);
 
 //Gameplay
-health_ = 3; // Health will become 1 later
+health_ = 1; // Health will become 1 later
