@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Text and Menu Sprites",
+    "path": "folders/Text and Menu Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_zzability_lasericon",

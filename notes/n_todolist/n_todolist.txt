@@ -5,4 +5,9 @@ O_EARWIG:
 
 - @fine_boi finish Snake maybe?
 - Make heaviness end at end of room
-- Locked Abilities
+
+Demo:
+-Adjust Shield
+-Level 9+10
+-Additional Balancing
+-Checkpoint, Lives and Respawn System
