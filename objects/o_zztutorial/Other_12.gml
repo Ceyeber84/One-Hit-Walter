@@ -1,9 +1,21 @@
 /// @description ABILITY
 draw_sprite(s_zztutorial_abilitytext, image_index, 290, 38);
 
-if alarm[0] >= room_speed*8 {
-	if mouse_check_button(mb_left) {
-		alarm[0] = room_speed*5;
+if global.laser_unlocked_ = true {
+	if mouse_check_button_pressed(mb_left) {
+			alarm[0] = room_speed*4;
+	}
+}
+
+if global.battery_unlocked_ = true {
+	if keyboard_check_pressed(ord("E")) {
+			alarm[0] = room_speed*4;
+	}
+}
+
+if global.shield_unlocked_ = true {
+	if keyboard_check_pressed(ord("F")) {
+			alarm[0] = room_speed*4;
 	}
 }
 

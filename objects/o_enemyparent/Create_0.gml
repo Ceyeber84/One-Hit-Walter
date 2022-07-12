@@ -1,4 +1,4 @@
-/// @description variables
+/// @description Variables
 
 i_frames_ = false;
 alarm[11] = 0;

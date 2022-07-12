@@ -1,4 +1,4 @@
-/// @description shield knockback
+/// @description Shield Knockback
 // X
 
 if place_meeting(x + hspeed_, y, o_shield) && alarm[10] <= 0 {

@@ -7,7 +7,5 @@ O_EARWIG:
 - Make heaviness end at end of room
 
 Demo:
--Adjust Shield
 -Level 9+10
 -Additional Balancing
--Checkpoint, Lives and Respawn System
