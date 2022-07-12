@@ -60,7 +60,10 @@ if alarm[1] <= 0 {
 	iFrames = false;;
 }
 
-if health_ <= 0 {
-instance_create_depth(room_width/2, room_height/2, -1000, o_zzendscreen_returntomenu);
-instance_destroy(self);	
+if health_ <= 0  && global.lives != 1{
+	global.lives -= 1;
+	room_restart()
+} else if health_ <= 0 {
+	instance_create_depth(room_width/2, room_height/2, -1000, o_zzendscreen_returntomenu);
+	instance_destroy(self);		
 }
