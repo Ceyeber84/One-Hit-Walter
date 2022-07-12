@@ -1,6 +1,8 @@
 /// @description destroy dung
 
 if state = SHOOTING {
-	o_dung_beetle.move = true;
+	if instance_exists(creator_id) {
+		creator_id.move = true;
+	}
 	instance_destroy(self);
 }

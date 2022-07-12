@@ -1,7 +1,7 @@
 /// @description Get yeeted
 if alarm[0] <0 {
 	if instance_exists(creator_id) {
-		if state = SHOOTING && o_dung_beetle.decide_dir = false {
+		if state = SHOOTING && creator_id.decide_dir = false {
 			vspeed_ += gravity_;
 		}
 
@@ -10,7 +10,7 @@ if alarm[0] <0 {
 		projectile_spin(hspeed_);
 
 		if y >= 500 {
-			o_dung_beetle.move = true;
+			creator_id.move = true;
 			instance_destroy(self);
 		}
 	}
