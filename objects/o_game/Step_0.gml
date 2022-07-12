@@ -10,13 +10,15 @@ if alarm[0] <= 0 {
 var roomname = room_get_name(room);
 
 if (roomname != "a_title_screen") && (roomname != "b_abilityselect1") && (roomname != "c_tutorial") {
-	if !instance_exists(o_enemyparent) {
-		if room_next(room) != -1 {
-			room_goto_next()	
-		}
+	if !instance_exists(o_enemyparent) && alarm[1] > room_speed*10{
+		alarm[1] = room_speed*3;
 	}
 }
 
+if alarm[1] <= 0 && room_next(room) != -1 {
+	alarm[1] = room_speed*1000;
+	room_goto_next();
+}
 
 //Debug
 /*var width = surface_get_width(application_surface);

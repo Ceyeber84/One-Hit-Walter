@@ -20,3 +20,6 @@ if instance_exists(o_walter) {
 		draw_sprite(s_redcross,image_index,x,y);	
 	}
 }
+
+//Draw Keybind
+draw_sprite(s_zzability_e, image_index, x+8, y+4);
