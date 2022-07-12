@@ -7,6 +7,7 @@ if instance_exists(o_walter) {
 			alarm[1] = room_speed * cooldown_;
 
 			instance_create_layer(o_walter.x+32, o_walter.y+32, "Instances", o_shield);
+			audio_play_sound(so_shieldactivate_demo, 7, false);
 		}
 	
 			if alarm[0] > 0 && o_walter.alarm[3] >= 0 {

@@ -7,6 +7,7 @@ if instance_exists(o_walter) {
 			alarm[1] = room_speed * cooldown_;
 			o_walter.max_speed_ = 4.5;
 			o_walter.battery_acc_ = 1.4;
+			audio_play_sound(so_batteryactivate_demo, 7, false);
 		}
 	
 		if alarm[0] <= 0 {
