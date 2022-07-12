@@ -5,6 +5,8 @@
 // 510 by 130
 // 430 by 30
 // 320 by 240
+
+//Attack
 if choose_attack_ = true {
 	choose_attack_ = false;
 	attack_value_ = irandom_range(pattern_start, pattern_end);

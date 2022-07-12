@@ -5,7 +5,3 @@ O_EARWIG:
 
 - @fine_boi finish Snake maybe?
 - Make heaviness end at end of room
-
-Demo:
--Level 9+10
--Additional Balancing

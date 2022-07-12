@@ -12,6 +12,7 @@ image_index = 0;
 alarm[0] = attack_cooldown_;
 alarm[1] = 0;
 alarm[2] = 0;
+alarm[3] = 0;
 mask_index = -1;
 
 //States
@@ -27,5 +28,6 @@ health_ = 50;
 max_health_ = health_;
 choose_attack_ = true;
 attack_value_ = 0;
+spawn_enemy = -1;
 
 instance_create_depth(room_width/2,room_height/10, 0, o_bosshealthbar);
