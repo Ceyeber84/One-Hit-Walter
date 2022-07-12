@@ -12,4 +12,5 @@ if roomname = "z_wolfboss" {
 //Activate Checkpoint
 if roomname = "room_1_6" {
 	global.checkpoint = 1;
+	global.lives = 3;
 }

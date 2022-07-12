@@ -51,6 +51,7 @@
     {"id":{"name":"o_wolf_warning_long","path":"objects/o_wolf_warning_long/o_wolf_warning_long.yy",},"order":18,},
     {"id":{"name":"s_snail","path":"sprites/s_snail/s_snail.yy",},"order":39,},
     {"id":{"name":"s_zztutorial_enemytext","path":"sprites/s_zztutorial_enemytext/s_zztutorial_enemytext.yy",},"order":4,},
+    {"id":{"name":"s_zzendscreen_returntocheckpoint","path":"sprites/s_zzendscreen_returntocheckpoint/s_zzendscreen_returntocheckpoint.yy",},"order":33,},
     {"id":{"name":"so_musicworld1_demo","path":"sounds/so_musicworld1_demo/so_musicworld1_demo.yy",},"order":1,},
     {"id":{"name":"s_lava_drop","path":"sprites/s_lava_drop/s_lava_drop.yy",},"order":34,},
     {"id":{"name":"s_delversolid","path":"sprites/s_delversolid/s_delversolid.yy",},"order":31,},
