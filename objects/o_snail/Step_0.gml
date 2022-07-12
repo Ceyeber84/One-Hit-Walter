@@ -18,7 +18,7 @@ if hspeed_ < -1 {
 }
 
 x += hspeed_;
-y += vspeed_;
+y = 456;
 
 
 //Die
