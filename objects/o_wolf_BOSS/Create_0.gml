@@ -29,5 +29,6 @@ max_health_ = health_;
 choose_attack_ = true;
 attack_value_ = 0;
 spawn_enemy = -1;
+global.enemy_counter = 0
 
 instance_create_depth(room_width/2,room_height/10, 0, o_bosshealthbar);

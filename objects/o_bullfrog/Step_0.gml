@@ -48,5 +48,8 @@ if place_meeting(x + hspeed_, y, o_wall) or place_meeting(x, y + vspeed_, o_wall
 state = NOT_JUMPING;
 
 if health_ <= 0 {
+	if instance_exists(o_wolf_BOSS) {
+	global.enemy_counter -= 1;
+	}
 	instance_destroy();
 }

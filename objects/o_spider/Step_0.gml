@@ -28,6 +28,9 @@ if alarm[0] <= 0 {
 }
 
 if health_ <= 0 {
+	if instance_exists(o_wolf_BOSS) {
+	global.enemy_counter -= 1;
+	}
 	instance_destroy();
 }
 
