@@ -3,7 +3,6 @@ TO DO:
 -O_EARWIG:
 	1)	sound effect for hitting shell only plays if
 		health_ != previous health_
-	2)	make hitboxes for taking damage, use sensors
 
 -Sprite reworks (Jake)
 -Music (Colijn)
@@ -12,7 +11,6 @@ TO DO:
 -World 2 and 3
 -Powerup Progression
 -Sandworm Boss
--Snake maybe?
 -Enemy Spawner
 -Glitch Hunting + Patching
 -Balance Changes

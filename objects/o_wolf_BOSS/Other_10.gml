@@ -5,7 +5,7 @@ if alarm[0] <= 0 {
 	state = ATTACK;
 	choose_attack_ = true;
 	alarm[0] = attack_cooldown_;
-	spawn_enemy = -spawn_enemy
+	spawn_enemy = -spawn_enemy;
 	
 	//Spawn enemy
 	var enemy = irandom(2);

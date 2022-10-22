@@ -58,7 +58,7 @@
     {"id":{"name":"s_delversolid","path":"sprites/s_delversolid/s_delversolid.yy",},"order":31,},
     {"id":{"name":"s_hearts3","path":"sprites/s_hearts3/s_hearts3.yy",},"order":49,},
     {"id":{"name":"s_walter_moving","path":"sprites/s_walter_moving/s_walter_moving.yy",},"order":37,},
-    {"id":{"name":"room_1_9","path":"rooms/room_1_9/room_1_9.yy",},"order":14,},
+    {"id":{"name":"TESTROOM","path":"rooms/TESTROOM/TESTROOM.yy",},"order":14,},
     {"id":{"name":"s_swallow","path":"sprites/s_swallow/s_swallow.yy",},"order":2,},
     {"id":{"name":"s_scream","path":"sprites/s_scream/s_scream.yy",},"order":27,},
     {"id":{"name":"c_tutorial","path":"rooms/c_tutorial/c_tutorial.yy",},"order":5,},
@@ -137,6 +137,7 @@
     {"id":{"name":"n_todolist","path":"notes/n_todolist/n_todolist.yy",},"order":0,},
     {"id":{"name":"o_wind_indicator","path":"objects/o_wind_indicator/o_wind_indicator.yy",},"order":32,},
     {"id":{"name":"s_bosshealthbar","path":"sprites/s_bosshealthbar/s_bosshealthbar.yy",},"order":21,},
+    {"id":{"name":"room_1_9","path":"rooms/room_1_9/room_1_9.yy",},"order":15,},
     {"id":{"name":"s_zzendscreen_youwon","path":"sprites/s_zzendscreen_youwon/s_zzendscreen_youwon.yy",},"order":16,},
     {"id":{"name":"so_shieldactivate_demo","path":"sounds/so_shieldactivate_demo/so_shieldactivate_demo.yy",},"order":5,},
     {"id":{"name":"s_earwig","path":"sprites/s_earwig/s_earwig.yy",},"order":22,},
@@ -179,6 +180,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"a_title_screen","path":"rooms/a_title_screen/a_title_screen.yy",},},
     {"roomId":{"name":"b_abilityselect1","path":"rooms/b_abilityselect1/b_abilityselect1.yy",},},
+    {"roomId":{"name":"z_wolfboss","path":"rooms/z_wolfboss/z_wolfboss.yy",},},
+    {"roomId":{"name":"TESTROOM","path":"rooms/TESTROOM/TESTROOM.yy",},},
     {"roomId":{"name":"c_tutorial","path":"rooms/c_tutorial/c_tutorial.yy",},},
     {"roomId":{"name":"room_1_1","path":"rooms/room_1_1/room_1_1.yy",},},
     {"roomId":{"name":"room_1_2","path":"rooms/room_1_2/room_1_2.yy",},},
@@ -189,7 +192,6 @@
     {"roomId":{"name":"room_1_7","path":"rooms/room_1_7/room_1_7.yy",},},
     {"roomId":{"name":"room_1_8","path":"rooms/room_1_8/room_1_8.yy",},},
     {"roomId":{"name":"room_1_9","path":"rooms/room_1_9/room_1_9.yy",},},
-    {"roomId":{"name":"z_wolfboss","path":"rooms/z_wolfboss/z_wolfboss.yy",},},
     {"roomId":{"name":"zz_endscreen","path":"rooms/zz_endscreen/zz_endscreen.yy",},},
   ],
   "Folders": [
