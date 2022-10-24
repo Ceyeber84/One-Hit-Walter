@@ -1,14 +1,15 @@
 /// @description Initiate Sandworm
 event_inherited();
 
-max_health_ = 10
-health_ = 10;
+max_health_ = 35
+health_ = 35;
 hspeed_ = 0;
 vspeed_ = 0;
 
 attack_cooldown_ = room_speed * 3;
 side = -1;
-attack_speed_ = -7 * side;
+attack_speed_ = -7;
+attacked_ = false;
 
 
 //States
