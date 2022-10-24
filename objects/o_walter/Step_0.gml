@@ -67,3 +67,4 @@ if health_ <= 0  && global.lives != 1{
 	instance_create_depth(room_width/2, room_height/2, -1000, o_zzendscreen_returntomenu);
 	instance_destroy(self);		
 }
+

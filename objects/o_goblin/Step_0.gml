@@ -32,11 +32,28 @@ if instance_exists(o_walter) && distance_to_object(o_wall) <= 1 && alarm[0] <= 0
 	vspeed_ = lengthdir_y(speed_, dir);
 	alarm[0] = glide_cd;
 	dir_ = dir
+	saved_hspeed_ = hspeed_
+	saved_vspeed_ = vspeed_
 }
 
-if alarm[1] = 0 {
-	hspeed_ = lengthdir_x(speed_, dir_);
-	vspeed_ = lengthdir_y(speed_, dir_);
+if alarm[1] <= 0 && laser_recovery = true {
+	hspeed_ += xacc * sign(hspeed_);
+	vspeed_ += yacc * sign(vspeed_);
+	if hspeed_ >= saved_hspeed_ {
+	clamp(hspeed_, saved_hspeed_, hspeed_)
+	}
+	else {
+		clamp(hspeed_, hspeed_, saved_hspeed_)
+	}
+	if vspeed_ >= saved_vspeed_ {
+	clamp(vspeed_, saved_vspeed_, vspeed_)
+	}
+	else {
+		clamp(vspeed_, vspeed_, saved_vspeed_)
+	}
+	if hspeed_ = saved_hspeed_ {
+		laser_recovery = false
+	}
 }
 
 Collision();
