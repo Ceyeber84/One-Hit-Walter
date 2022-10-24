@@ -39,20 +39,33 @@ if instance_exists(o_walter) && distance_to_object(o_wall) <= 1 && alarm[0] <= 0
 if alarm[1] <= 0 && laser_recovery = true {
 	hspeed_ += xacc * sign(hspeed_);
 	vspeed_ += yacc * sign(vspeed_);
-	if hspeed_ >= saved_hspeed_ {
-	clamp(hspeed_, saved_hspeed_, hspeed_)
+	if current_hspeed_ >= saved_hspeed_ {
+		clamp(hspeed_, saved_hspeed_, current_hspeed_);
+		if hspeed_ <= saved_hspeed_ {
+			good_h = true;
+		}
+	} else {
+		clamp(hspeed_, current_hspeed_, saved_hspeed_);
+		if hspeed_ >= saved_hspeed_ {
+			good_h = true;
+		}
+	}
+	if current_vspeed_ >= saved_vspeed_ {
+		clamp(vspeed_, saved_vspeed_, current_vspeed_);
+		if vspeed_ <= saved_hspeed_ {
+			good_v = true;
+		}
 	}
 	else {
-		clamp(hspeed_, hspeed_, saved_hspeed_)
+		clamp(vspeed_, current_vspeed_, saved_vspeed_);
+		if vspeed_ >= saved_hspeed_ {
+			good_v = true;
+		}
 	}
-	if vspeed_ >= saved_vspeed_ {
-	clamp(vspeed_, saved_vspeed_, vspeed_)
-	}
-	else {
-		clamp(vspeed_, vspeed_, saved_vspeed_)
-	}
-	if hspeed_ = saved_hspeed_ {
-		laser_recovery = false
+	if good_h = true && good_v = true {
+		laser_recovery = false;
+		good_h = false;
+		good_v = false;
 	}
 }
 
