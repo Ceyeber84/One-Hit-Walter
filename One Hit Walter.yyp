@@ -61,6 +61,7 @@
     {"id":{"name":"TESTROOM","path":"rooms/TESTROOM/TESTROOM.yy",},"order":14,},
     {"id":{"name":"s_swallow","path":"sprites/s_swallow/s_swallow.yy",},"order":2,},
     {"id":{"name":"s_scream","path":"sprites/s_scream/s_scream.yy",},"order":27,},
+    {"id":{"name":"so_laser","path":"sounds/so_laser/so_laser.yy",},"order":6,},
     {"id":{"name":"c_tutorial","path":"rooms/c_tutorial/c_tutorial.yy",},"order":5,},
     {"id":{"name":"s_magma_block","path":"sprites/s_magma_block/s_magma_block.yy",},"order":33,},
     {"id":{"name":"o_zzability_shieldselect","path":"objects/o_zzability_shieldselect/o_zzability_shieldselect.yy",},"order":45,},
@@ -213,6 +214,8 @@
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup1","resourceType":"GMAudioGroup",},
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup2","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
