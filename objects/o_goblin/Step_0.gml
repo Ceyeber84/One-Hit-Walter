@@ -4,7 +4,7 @@ event_inherited();
 
 // Death
 if health_ <= 0 {
-	instance_destroy();	
+	instance_destroy(self);	
 }
 
 // Collision
@@ -36,7 +36,9 @@ if instance_exists(o_walter) && distance_to_object(o_wall) <= 1 && alarm[0] <= 0
 	saved_vspeed_ = vspeed_
 }
 
-if alarm[1] <= 0 && laser_recovery = true {
+// Laser Recovery
+
+if laser_recovery = true {
 	hspeed_ += xacc * sign(hspeed_);
 	vspeed_ += yacc * sign(vspeed_);
 	if current_hspeed_ >= saved_hspeed_ {

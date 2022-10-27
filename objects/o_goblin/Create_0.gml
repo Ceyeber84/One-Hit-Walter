@@ -11,6 +11,7 @@ glide_cd = room_speed * 3;
 alarm[0] = glide_cd;
 alarm[1] = -1;
 dir_ = 0
+
 laser_recovery = false;
 acc_ratio = 0;
 xacc = 1;
