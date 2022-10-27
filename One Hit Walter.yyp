@@ -183,7 +183,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"a_title_screen","path":"rooms/a_title_screen/a_title_screen.yy",},},
     {"roomId":{"name":"b_abilityselect1","path":"rooms/b_abilityselect1/b_abilityselect1.yy",},},
-    {"roomId":{"name":"TESTROOM","path":"rooms/TESTROOM/TESTROOM.yy",},},
     {"roomId":{"name":"c_tutorial","path":"rooms/c_tutorial/c_tutorial.yy",},},
     {"roomId":{"name":"z_wolfboss","path":"rooms/z_wolfboss/z_wolfboss.yy",},},
     {"roomId":{"name":"TESTROOM16","path":"rooms/TESTROOM16/TESTROOM16.yy",},},
@@ -197,6 +196,7 @@
     {"roomId":{"name":"room_1_8","path":"rooms/room_1_8/room_1_8.yy",},},
     {"roomId":{"name":"room_1_9","path":"rooms/room_1_9/room_1_9.yy",},},
     {"roomId":{"name":"zz_endscreen","path":"rooms/zz_endscreen/zz_endscreen.yy",},},
+    {"roomId":{"name":"TESTROOM","path":"rooms/TESTROOM/TESTROOM.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
