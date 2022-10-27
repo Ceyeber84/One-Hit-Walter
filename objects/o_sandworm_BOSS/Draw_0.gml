@@ -1,6 +1,7 @@
 /// @description Attack Indicator
 draw_self()
 
+/*
 if state = WAITING {
 	if side == -1 {
 		var xpos = 14;	
@@ -10,3 +11,4 @@ if state = WAITING {
 	
 	draw_sprite(s_sandworm_indicator, sprite_index, xpos, y);
 }
+*/

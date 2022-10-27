@@ -1,13 +1,53 @@
 /// @description Attack
-hspeed_ = attack_speed_ * side;
+randomise();
+hspeed_ = attack_speed_ * hdir_;
+vspeed_ = attack_speed_ * vdir_;
 
-if x >= room_width + sprite_width or x <= -sprite_width {
+if place_meeting(x, y, o_sensor_sandworm){
 	if attacked_ = true {
+		randomise();
 		hspeed_ = 0;
 		vspeed_ = 0;
-		alarm[0] = attack_cooldown_;
-		variable_instance_set(self, "side", -side);
 		variable_instance_set(self, "attacked_", false);
+		alarm[0] = attack_cooldown_;
+		
+		//Decide new side and position
+		var newside = irandom_range(1, 4); //1-left, 2-top, 3-right, 4-bottom
+		var newpos = random_range(0.2, 0.8);
+		
+		//Warp to new location
+		//Left
+				if newside = 1 {
+			x = -sprite_width;
+			y = newpos * room_height;
+			variable_instance_set(self, hdir_, 1);
+			variable_instance_set(self, vdir_, 0);
+		}
+		
+		//Top
+		if newside = 2 {
+			x = newpos * room_width;
+			y = -sprite_width;
+			variable_instance_set(self, hdir_, 0);
+			variable_instance_set(self, vdir_, 1);
+		}
+		
+		//Right
+		if newside = 3 {
+			x = room_width + sprite_width;
+			y = newpos * room_height;
+			variable_instance_set(self, hdir_, -1);
+			variable_instance_set(self, vdir_, 0);
+		}
+		
+		//Bottom
+		if newside = 4 {
+			x = newpos * room_height;
+			y = room_height + sprite_width;
+			variable_instance_set(self, hdir_, 0);
+			variable_instance_set(self, vdir_, -1);
+		}
+		
 		state = WAITING;
 	}
 }
