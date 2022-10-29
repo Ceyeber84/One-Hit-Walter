@@ -13,6 +13,7 @@ vspeed_ = 0;
 attack_cooldown_ = room_speed * 3;
 hdir_ = 1;
 vdir_ = 0;
+rotation = 0;
 attack_speed_ = 7;
 attacked_ = false;
 
@@ -20,7 +21,6 @@ attacked_ = false;
 //States
 WAITING = 0;
 ATTACK = 1;
-ENRAGED = 2;
 state = WAITING;
 
 alarm[0] = attack_cooldown_;
@@ -53,3 +53,5 @@ with instance_create_depth(room_width/2, room_height + sprite_width, 0, o_sensor
 	image_xscale = 15;
 	image_yscale = 24;
 }
+
+instance_create_depth(room_width/2,room_height/10, 0, o_bosshealthbar_sandworm);

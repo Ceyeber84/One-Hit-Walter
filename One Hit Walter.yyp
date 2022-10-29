@@ -126,6 +126,7 @@
     {"id":{"name":"room_1_6","path":"rooms/room_1_6/room_1_6.yy",},"order":11,},
     {"id":{"name":"n_dev_commands","path":"notes/n_dev_commands/n_dev_commands.yy",},"order":1,},
     {"id":{"name":"projectile_spin","path":"scripts/projectile_spin/projectile_spin.yy",},"order":4,},
+    {"id":{"name":"o_bosshealthbar_sandworm","path":"objects/o_bosshealthbar_sandworm/o_bosshealthbar_sandworm.yy",},"order":53,},
     {"id":{"name":"o_dung","path":"objects/o_dung/o_dung.yy",},"order":22,},
     {"id":{"name":"o_magma_delver_BOSS","path":"objects/o_magma_delver_BOSS/o_magma_delver_BOSS.yy",},"order":35,},
     {"id":{"name":"s_sensor","path":"sprites/s_sensor/s_sensor.yy",},"order":19,},
