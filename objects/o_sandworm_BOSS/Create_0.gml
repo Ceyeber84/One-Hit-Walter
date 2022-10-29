@@ -5,17 +5,18 @@ randomise();
 x = -sprite_width;
 y = 0.5 * room_height
 			
-max_health_ = 35
-health_ = 35;
+max_health_ = 42;
+health_ = 42;
 hspeed_ = 0;
 vspeed_ = 0;
 
-attack_cooldown_ = room_speed * 3;
+attack_cooldown_ = room_speed * 2.25;
 hdir_ = 1;
 vdir_ = 0;
 rotation = 0;
 attack_speed_ = 7;
 attacked_ = false;
+spawned_minions_ = false;
 
 
 //States

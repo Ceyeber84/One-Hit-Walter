@@ -3,12 +3,28 @@ randomise();
 hspeed_ = attack_speed_ * hdir_;
 vspeed_ = attack_speed_ * vdir_;
 
+//Spawn Minions
+if instance_exists(o_walter) {
+	if spawned_minions_ == false {
+		if x > 0 and x < room_width {
+			if y > 0 and y < room_height {
+				if ((x > o_walter.x - 5 and x < o_walter.x + 5) and hspeed_ != 0) or ((y > o_walter.y - 5 and y < o_walter.y + 5) and vspeed_ != 0){
+				instance_create_depth(x-15, y-15, -100, o_sandworm_minion);
+				instance_create_depth(x+15, y+15, -100, o_sandworm_minion);
+				variable_instance_set(self, "spawned_minions_", true);	
+				}
+			}
+		}
+	}
+}
+
 if place_meeting(x, y, o_sensor_sandworm){
 	if attacked_ = true {
 		randomise();
 		hspeed_ = 0;
 		vspeed_ = 0;
 		variable_instance_set(self, "attacked_", false);
+		variable_instance_set(self, "spawned_minions_", false);
 		alarm[0] = attack_cooldown_;
 		
 		//Decide new side and position
