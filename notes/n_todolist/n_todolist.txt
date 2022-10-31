@@ -10,7 +10,6 @@ TO DO:
 -Full GUI Rework (Custom Font?)
 -World 2 and 3
 -Powerup Progression
--Sandworm Boss
 -Enemy Spawner
 -Glitch Hunting + Patching
 -Balance Changes
