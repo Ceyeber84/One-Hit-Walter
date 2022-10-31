@@ -28,6 +28,9 @@ alarm[0] = attack_cooldown_;
 
 alarm[6] = room_speed * 0.5;
 
+//Create Initial Indicator
+instance_create_depth(16, y, 100, o_sandworm_indicator);
+
 //Create Sensors
 //Right
 with instance_create_depth(room_width + sprite_width, room_height/2, 0, o_sensor_sandworm) {
