@@ -4,7 +4,7 @@ hspeed_ = 1;
 vspeed_ = 1;
 hacceleration_ = 0.05;
 vacceleration_ = 0.05;
-max_speed_ = 2.5;
+max_speed_ = 1.5;
 hspeed_push_ = 0;
 vspeed_push_ = 0;
 

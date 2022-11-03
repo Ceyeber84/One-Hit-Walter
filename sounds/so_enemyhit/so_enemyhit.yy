@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.13,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "so_batteryactivate_demo.wav",
-  "duration": 0.364467,
+  "soundFile": "so_enemyhit.wav",
+  "duration": 0.117347,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "so_batteryactivate_demo",
+  "name": "so_enemyhit",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -5,4 +5,6 @@ if instance_exists(o_dung) && instance_exists(o_dung_beetle) {
 		o_dung_beetle.move = true;
 	}
 }
+
+audio_play_sound(so_bulletonshield, 1, false);
 instance_destroy(other);

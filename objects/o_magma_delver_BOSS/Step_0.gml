@@ -13,5 +13,7 @@ if alarm[0] <= 0 {
 }
 
 if health_ <= 0 {
+	audio_stop_all();
+	audio_play_sound(so_bossdeath, 1, false);
 	instance_destroy(self);
 }

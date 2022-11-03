@@ -13,3 +13,11 @@ TO DO:
 -Enemy Spawner
 -Glitch Hunting + Patching
 -Balance Changes
+
+
+Enemies with Special SFX Rules:
+
+Earwig
+Wolf BOSS
+Wolf Arm
+Magma Tendril

@@ -42,24 +42,24 @@ if laser_recovery = true {
 	hspeed_ += xacc * sign(hspeed_);
 	vspeed_ += yacc * sign(vspeed_);
 	if current_hspeed_ >= saved_hspeed_ {
-		clamp(hspeed_, saved_hspeed_, current_hspeed_);
+		hspeed_ = clamp(hspeed_, saved_hspeed_, current_hspeed_);
 		if hspeed_ <= saved_hspeed_ {
 			good_h = true;
 		}
 	} else {
-		clamp(hspeed_, current_hspeed_, saved_hspeed_);
+		hspeed_ = clamp(hspeed_, current_hspeed_, saved_hspeed_);
 		if hspeed_ >= saved_hspeed_ {
 			good_h = true;
 		}
 	}
 	if current_vspeed_ >= saved_vspeed_ {
-		clamp(vspeed_, saved_vspeed_, current_vspeed_);
+		vspeed_ = clamp(vspeed_, saved_vspeed_, current_vspeed_);
 		if vspeed_ <= saved_hspeed_ {
 			good_v = true;
 		}
 	}
 	else {
-		clamp(vspeed_, current_vspeed_, saved_vspeed_);
+		vspeed_ = clamp(vspeed_, current_vspeed_, saved_vspeed_);
 		if vspeed_ >= saved_hspeed_ {
 			good_v = true;
 		}
