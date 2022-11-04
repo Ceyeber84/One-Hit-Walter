@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "so_walterdeath_noac.wav",
+  "soundFile": "so_walterdeath.wav",
   "duration": 1.344218,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "so_walterdeath_noac",
+  "name": "so_walterdeath",
   "tags": [],
   "resourceType": "GMSound",
 }

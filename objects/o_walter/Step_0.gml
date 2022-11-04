@@ -62,9 +62,12 @@ if alarm[1] <= 0 {
 
 if health_ <= 0  && global.lives != 1{
 	global.lives -= 1;
+	audio_play_sound(so_walterdeath, 1, false);
 	room_restart()
 } else if health_ <= 0 {
 	instance_create_depth(room_width/2, room_height/2, -1000, o_zzendscreen_returntomenu);
+	audio_stop_all();
+	audio_play_sound(so_walterdeath, 1, false);
 	instance_destroy(self);		
 }
 

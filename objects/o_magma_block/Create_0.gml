@@ -1,5 +1,7 @@
 /// @description Initiate
 
+randomise();
+
 depth = -10;
 shoot_cd = room_speed * 4;
 alarm[0] = shoot_cd;

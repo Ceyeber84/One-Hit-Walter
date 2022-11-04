@@ -8,6 +8,7 @@ if instance_exists(o_walter) {
 			var dir = point_direction(x, y, o_walter.x, o_walter.y);
 			dung_id.hspeed_ = lengthdir_x(8, dir);
 			dung_id.vspeed_ = lengthdir_y(13, dir);
+			audio_play_sound(so_enemyshoot, 1, false);
 			decide_dir = false;
 		}
 	}

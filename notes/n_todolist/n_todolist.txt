@@ -1,23 +1,13 @@
 TO DO:
 
--O_EARWIG:
-	1)	sound effect for hitting shell only plays if
-		health_ != previous health_
-
+-Sandstorm:
+	- Increase Walter's maximum speed when 
+	moving in the direction of the sandstorm
 -Sprite reworks (Jake)
 -Music (Colijn)
--Additional Sound Effects
 -Full GUI Rework (Custom Font?)
 -World 2 and 3
 -Powerup Progression
 -Enemy Spawner
 -Glitch Hunting + Patching
 -Balance Changes
-
-
-Enemies with Special SFX Rules:
-
-Earwig
-Wolf BOSS
-Wolf Arm
-Magma Tendril

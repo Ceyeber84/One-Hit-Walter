@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.17,
+  "volume": 0.14,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "so_enemyshoot_noac.wav",
-  "duration": 0.403537,
+  "soundFile": "so_enemydeath.wav",
+  "duration": 0.443084,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "so_enemyshoot_noac",
+  "name": "so_enemydeath",
   "tags": [],
   "resourceType": "GMSound",
 }

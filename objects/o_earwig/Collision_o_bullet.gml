@@ -6,6 +6,7 @@ if (point_distance(other.x, other.y, A[0], A[1]) <= 20) or (point_distance(other
 	if i_frames_ = false {
 		health_ -= 1;
 		i_frames_ = true;
+		audio_play_sound(so_enemyhit, 1, false);
 	}
 } else {
 	audio_play_sound(so_earwigx, 1, false);

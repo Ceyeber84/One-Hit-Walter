@@ -51,6 +51,7 @@ with (o_sensor) {
 		var bullet = instance_place(x, y, o_bullet);
 		if place_meeting(x, y, bullet) && instance_exists(o_magma_delver_BOSS) {
 			o_magma_delver_BOSS.health_ -= 1;
+			audio_play_sound(so_enemyhit, 1, false);
 			instance_destroy(bullet);
 		}
 		
