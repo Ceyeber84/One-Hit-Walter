@@ -4,9 +4,10 @@ visible = true;
 
 event_inherited();
 bulletdir = 0;
-health_ =1;
+health_ = 80;
 
 // 80 HEALTH
+
 hspeed_ = 0;
 vspeed_ = 0;
 direction_ = 0;
