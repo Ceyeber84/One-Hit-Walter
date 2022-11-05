@@ -10,7 +10,7 @@ global.checkpoint = 0;
 //Sandstorm
 sandstorm_active_ = false;
 sandstorm_direction_ = 1;
-
+indicator_blink_ = false;
 instance_create_depth(room_width / 2, room_height / 8, 10, o_wind_indicator);
 
 alarm[0] = room_speed * 8;
