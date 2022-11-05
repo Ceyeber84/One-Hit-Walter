@@ -27,7 +27,7 @@ if alarm[3] >= 0 {
 var hinput = keyboard_check(vk_right) - keyboard_check(vk_left)
 hacceleration_ = hinput * battery_acc_;
 hspeed_ += .3 * hacceleration_ + wind;
-hspeed_ = clamp(hspeed_, -max_speed_ * slowed + (o_game.sandstorm_direction_), max_speed_ * slowed + (o_game.sandstorm_direction_));
+hspeed_ = clamp(hspeed_, -max_speed_ * slowed - (o_game.sandstorm_direction_), max_speed_ * slowed + (o_game.sandstorm_direction_));
 if hinput = 0 {
 	hspeed_ = lerp(hspeed_, 0, .1);
 }

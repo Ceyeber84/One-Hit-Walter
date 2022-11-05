@@ -1,15 +1,17 @@
 /// @description
 
 //Switch Sandstorm Direction
-if alarm[0] <= 0 {
-	sandstorm_direction_ = sandstorm_direction_ * -1;
-	alarm[0] = room_speed * 8;
-}
+if sandstorm_active_ = true {
+	if alarm[0] <= 0 {
+		sandstorm_direction_ = sandstorm_direction_ * -1;
+		alarm[0] = room_speed * 8;
+	}
 
-if alarm[0] <= room_speed*3 {
-	indicator_blink_ = true;	
-} else {
-	indicator_blink_ = false;	
+	if alarm[0] <= room_speed*3 {
+		indicator_blink_ = true;	
+	} else {
+		indicator_blink_ = false;	
+	}
 }
 
 // Base Music on Room
