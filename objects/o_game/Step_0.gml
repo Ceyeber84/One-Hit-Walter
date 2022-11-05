@@ -6,6 +6,12 @@ if alarm[0] <= 0 {
 	alarm[0] = room_speed * 8;
 }
 
+if alarm[0] <= room_speed*3 {
+	indicator_blink_ = true;	
+} else {
+	indicator_blink_ = false;	
+}
+
 // Base Music on Room
 
 if room != current_room && room != a_title_screen && room != b_abilityselect1  {
