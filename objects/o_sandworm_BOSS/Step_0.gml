@@ -24,5 +24,6 @@ if health_ <= max_health_/2 {
 if health_ <= 0 {
 	audio_stop_all();
 	audio_play_sound(so_bossdeath, 1, false);
+	global.campaign = 3;
 	instance_destroy()	
 }

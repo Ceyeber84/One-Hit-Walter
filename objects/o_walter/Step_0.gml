@@ -68,6 +68,8 @@ if health_ <= 0  && global.lives != 1{
 	instance_create_depth(room_width/2, room_height/2, -1000, o_zzendscreen_returntomenu);
 	audio_stop_all();
 	audio_play_sound(so_walterdeath, 1, false);
-	instance_destroy(self);		
+	room_goto(a_title_screen);
+	global.lives = 3;
+	instance_destroy(self);
 }
 

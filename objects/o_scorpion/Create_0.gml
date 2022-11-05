@@ -7,6 +7,6 @@ health_ = 4;
 
 gravity_ = 0.1;
 
-bullet_cooldown_ = room_speed;
+bullet_cooldown_ = room_speed * 2;
 alarm[0] = bullet_cooldown_;
 event_inherited();

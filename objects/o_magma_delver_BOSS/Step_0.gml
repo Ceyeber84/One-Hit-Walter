@@ -17,5 +17,7 @@ if health_ <= 0 {
 	audio_stop_all();
 	audio_play_sound(so_bossdeath, 1, false);
 	instance_destroy(o_magma_block);
+	instance_destroy(o_magma_tendril);
+	global.campaign = 4;
 	instance_destroy(self);
 }

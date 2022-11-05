@@ -32,4 +32,4 @@ keyboard_set_map(ord("S"), vk_down);
 keyboard_set_map(ord("D"), vk_right);
 
 //Gameplay
-health_ = 1; // Health will become 1 later
+health_ = 10; // Health will become 1 later

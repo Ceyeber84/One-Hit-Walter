@@ -11,6 +11,7 @@ event_user(state);
 if health_ <= 0 {
 	audio_stop_all();
 	audio_play_sound(so_bossdeath, 1, false);
+	global.campaign = 2;
 	instance_destroy(self);
 }
 
