@@ -49,8 +49,8 @@ if instance_exists(o_bullet) {
 }
 
 if set_angle_ = false {
-	hspeed_ = lengthdir_x(12, dodge_direction_);
-	vspeed_ = lengthdir_y(12, dodge_direction_);
+	hspeed_ = lengthdir_x(13, dodge_direction_);
+	vspeed_ = lengthdir_y(13, dodge_direction_);
 }
 hspeed_ = lerp(hspeed_, 0, .05);
 vspeed_ = lerp(vspeed_, 0, .05);
