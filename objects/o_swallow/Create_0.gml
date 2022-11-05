@@ -20,6 +20,6 @@ SLOW = 1;
 state = ATTACK;
 
 //Gameplay
-health_ = 5;
+health_ = 8;
 hitbyshield_ = false;
 alarm[0] = 0;

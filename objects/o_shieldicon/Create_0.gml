@@ -1,6 +1,6 @@
 /// @description Initiate
 
-cooldown_ = 12;
+cooldown_ = 15;
 activity_ = 7;
 
 alarm[0] = room_speed * activity_;

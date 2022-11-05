@@ -1,6 +1,6 @@
 /// @description Initiate Laser
 
-cooldown_ = 6;
+cooldown_ = 12;
 alarm[0] = 0;
 
 unlocked_ = true;
