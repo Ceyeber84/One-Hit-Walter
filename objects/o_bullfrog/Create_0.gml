@@ -15,8 +15,6 @@ max_vspeed_ = 8.5;
 health_ = 10;
 facing_ = -1;
 
-depth = 0;
-
 // States
 
 JUMPING = 0;

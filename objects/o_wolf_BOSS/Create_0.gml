@@ -4,7 +4,7 @@ event_inherited();
 randomise();
 
 // Cooldowns
-attack_cooldown_ = room_speed * 6;
+attack_cooldown_ = room_speed * 4.5;
 warning_duration_ = room_speed * 1.5;
 phase3triggered = false;
 
@@ -14,6 +14,9 @@ alarm[1] = 0;
 alarm[2] = 0;
 alarm[3] = 0;
 mask_index = -1;
+image_xscale = 1.5;
+image_yscale = 1.5;
+depth = -5
 
 //States
 
