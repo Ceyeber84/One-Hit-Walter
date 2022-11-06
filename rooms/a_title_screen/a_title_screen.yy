@@ -35,10 +35,9 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_zzmenu_startgame","path":"objects/o_zzmenu_startgame/o_zzmenu_startgame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":180.0,"resourceVersion":"1.0","name":"inst_313A88A0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_game","path":"objects/o_game/o_game.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":616.0,"y":24.0,"resourceVersion":"1.0","name":"inst_3B9185BB","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_title_screen","path":"objects/o_title_screen/o_title_screen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":616.0,"y":4.0,"resourceVersion":"1.0","name":"inst_7664BD00","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":4,"gridY":4,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
-        {"spriteId":{"name":"s_zzmenu_title","path":"sprites/s_zzmenu_title/s_zzmenu_title.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":8.351351,"scaleY":9.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":64.0,"resourceVersion":"1.0","name":"graphic_17FE996E","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"s_zzmenu_credits","path":"sprites/s_zzmenu_credits/s_zzmenu_credits.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":320.0,"resourceVersion":"1.0","name":"graphic_55D8905","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"s_walter_idle","path":"sprites/s_walter_idle/s_walter_idle.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":-4.0,"scaleY":4.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":288.0,"resourceVersion":"1.0","name":"graphic_58310FED","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"s_wolf_BOSS","path":"sprites/s_wolf_BOSS/s_wolf_BOSS.yy",},"headPosition":1.0,"rotation":0.0,"scaleX":0.804878056,"scaleY":0.804878056,"animationSpeed":0.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":80.0,"y":272.0,"resourceVersion":"1.0","name":"graphic_46E9D1E4","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
@@ -48,8 +47,9 @@
   "creationCodeFile": "${project_dir}/rooms/r_one/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_313A88A0","path":"rooms/a_title_screen/a_title_screen.yy",},
     {"name":"inst_3B9185BB","path":"rooms/a_title_screen/a_title_screen.yy",},
+    {"name":"inst_313A88A0","path":"rooms/a_title_screen/a_title_screen.yy",},
+    {"name":"inst_7664BD00","path":"rooms/a_title_screen/a_title_screen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

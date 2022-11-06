@@ -24,3 +24,11 @@ if (roomname != "a_title_screen") && (roomname != "b_abilityselect1" ) && (roomn
 		draw_sprite(s_heart, image_index, x, y);	
 	}
 }
+
+/*
+if room = TESTROOM {
+	draw_text_ext_transformed(room_width/2 - 280, room_height/2 - 128, "the quick brown fox jumps over the lazy dog", 10, 150, 4, 4, 0);
+	draw_text_ext_transformed(room_width/2 - 280, room_height/2, "The Quick Brown Fox Jumps Over The Lazy Dog", 10, 150, 4, 4, 0);
+	draw_text_ext_transformed(room_width/2 - 280, room_height/2 + 128, "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 10, 150, 4, 4, 0);
+}
+*/
