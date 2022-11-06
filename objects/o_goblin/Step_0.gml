@@ -41,6 +41,7 @@ if instance_exists(o_walter) && distance_to_object(o_wall) <= 1 && alarm[0] <= 0
 if laser_recovery = true {
 	hspeed_ += xacc * sign(hspeed_);
 	vspeed_ += yacc * sign(vspeed_);
+	if sign(current_hspeed_) = sign(saved_hspeed_) {
 	if current_hspeed_ >= saved_hspeed_ {
 		hspeed_ = clamp(hspeed_, saved_hspeed_, current_hspeed_);
 		if hspeed_ <= saved_hspeed_ {
@@ -52,17 +53,45 @@ if laser_recovery = true {
 			good_h = true;
 		}
 	}
+	} else {
+		if current_hspeed_ >= -saved_hspeed_ {
+		hspeed_ = clamp(hspeed_, -saved_hspeed_, current_hspeed_);
+		if hspeed_ <= -saved_hspeed_ {
+			good_h = true;
+		}
+	} else {
+		hspeed_ = clamp(hspeed_, current_hspeed_, -saved_hspeed_);
+		if hspeed_ >= -saved_hspeed_ {
+			good_h = true;
+		}
+	}
+	}
+	if sign(current_vspeed_) = sign(saved_vspeed_) {
 	if current_vspeed_ >= saved_vspeed_ {
 		vspeed_ = clamp(vspeed_, saved_vspeed_, current_vspeed_);
-		if vspeed_ <= saved_hspeed_ {
+		if vspeed_ <= saved_vspeed_ {
 			good_v = true;
 		}
 	}
 	else {
 		vspeed_ = clamp(vspeed_, current_vspeed_, saved_vspeed_);
-		if vspeed_ >= saved_hspeed_ {
+		if vspeed_ >= saved_vspeed_ {
 			good_v = true;
 		}
+	}
+	} else {
+		if current_vspeed_ >= -saved_vspeed_ {
+		vspeed_ = clamp(vspeed_, -saved_vspeed_, current_vspeed_);
+		if vspeed_ <= -saved_vspeed_ {
+			good_v = true;
+		}
+	}
+	else {
+		vspeed_ = clamp(vspeed_, current_vspeed_, -saved_vspeed_);
+		if vspeed_ >= -saved_vspeed_ {
+			good_v = true;
+		}
+	}
 	}
 	if good_h = true && good_v = true {
 		laser_recovery = false;
