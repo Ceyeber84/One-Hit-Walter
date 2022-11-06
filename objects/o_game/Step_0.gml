@@ -43,6 +43,12 @@ if room != current_room && room != a_title_screen && room != b_abilityselect1  {
 		}
 	}
 }
+
+if room = a_title_screen && room != current_room {
+	audio_stop_all();
+	audio_play_sound(so_musicwolf, 1, true);
+}
+
 current_room = room;
 
 

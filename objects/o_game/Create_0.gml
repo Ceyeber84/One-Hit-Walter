@@ -5,7 +5,7 @@ global.laser_unlocked_ = false;
 global.shield_unlocked_ = false;
 global.battery_unlocked_ = false;
 global.lives = 3;
-global.checkpoint = 0;
+global.walters = 3;
 
 //Sandstorm
 sandstorm_active_ = false;

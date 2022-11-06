@@ -27,7 +27,7 @@ state = IDLE;
 
 pattern_start = 1;
 pattern_end = 5;
-health_ = 50;
+health_ = 75;
 max_health_ = health_;
 choose_attack_ = true;
 attack_value_ = 0;
