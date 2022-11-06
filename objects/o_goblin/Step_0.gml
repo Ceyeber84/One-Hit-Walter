@@ -93,7 +93,7 @@ if laser_recovery = true {
 		}
 	}
 	}
-	if good_h = true && good_v = true {
+	if good_h = true && good_v = true or distance_to_object(o_wall) < 1 {
 		laser_recovery = false;
 		good_h = false;
 		good_v = false;
