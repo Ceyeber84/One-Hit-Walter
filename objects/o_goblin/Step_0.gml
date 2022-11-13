@@ -26,11 +26,13 @@ if place_meeting(x + hspeed_, y, o_wall) or place_meeting(x, y + vspeed_, o_wall
 }
 
 // Glide
+if instance_exists(o_walter) && distance_to_object(o_wall) > 1 {
+	alarm[0] = glide_cd
+}
 if instance_exists(o_walter) && distance_to_object(o_wall) <= 1 && alarm[0] <= 0 {
 	var dir = point_direction(x, y, o_walter.x, o_walter.y);
 	hspeed_ = lengthdir_x(speed_, dir);
 	vspeed_ = lengthdir_y(speed_, dir);
-	alarm[0] = glide_cd;
 	dir_ = dir
 	saved_hspeed_ = hspeed_
 	saved_vspeed_ = vspeed_
