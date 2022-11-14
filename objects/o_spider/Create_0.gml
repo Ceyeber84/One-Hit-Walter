@@ -9,7 +9,7 @@ hspeed_ = lengthdir_x(speed_, dir);
 vspeed_ = lengthdir_y(speed_, dir);
 direction_ = 0;
 
-web_cd = room_speed * 3;
+web_cd = room_speed * 2.4;
 alarm[0] = web_cd;
 
-health_ = 6;
+health_ = 10;

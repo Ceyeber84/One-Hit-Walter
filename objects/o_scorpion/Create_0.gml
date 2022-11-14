@@ -3,7 +3,7 @@ randomise();
 hspeed_ = 4;
 vspeed_ = 0;
 
-health_ = 4;
+health_ = 12;
 
 gravity_ = 0.1;
 

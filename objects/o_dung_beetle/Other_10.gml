@@ -8,8 +8,8 @@ if move = true {
 
 if instance_exists(dung_id) {
 	dung_id.x = x + 17 * sign(hspeed_);
-	dung_id.image_xscale += .01;
-	dung_id.image_yscale += .01;
+	dung_id.image_xscale += .02;
+	dung_id.image_yscale += .02;
 }
 
 // Switch States
@@ -20,7 +20,7 @@ if instance_exists(dung_id) {
 		saved_speed_ = sign(hspeed_);
 		hspeed_ = 0;
 		move = false;
-		alarm[0] = room_speed;
+		alarm[0] = room_speed + random_range(0, 2 * room_speed);
 	}
 }
 decide_dir = true;

@@ -8,7 +8,7 @@ vspeed_ = 0;
 max_hspeed_ = 2;
 max_vspeed_ = 6;
 
-health_ = 4;
+health_ = 13;
 
 FLY = 0;
 ATTACK = 1;
