@@ -1,9 +1,7 @@
 TO DO:
 -Sprite reworks (Jake)
--Music (Colijn)
 -Full GUI Rework
 -World 2 and 3
 -Powerup Progression
--Enemy Spawner
 -Glitch Hunting + Patching
 -Balance Changes
