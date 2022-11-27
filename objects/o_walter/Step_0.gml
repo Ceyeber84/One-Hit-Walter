@@ -52,10 +52,10 @@ prev_slowed = slowed;
 Collision_Bounce();
 
 // Update X and Y
-
 x += hspeed_;
 y += vspeed_;
 
+//Damage and Death
 if alarm[1] <= 0 {
 	iFrames = false;;
 }
@@ -79,4 +79,3 @@ if health_ <= 0  && global.lives != 1 {
 	global.walters -= 1;
 	instance_destroy(self);
 }
-

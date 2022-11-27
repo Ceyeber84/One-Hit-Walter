@@ -11,6 +11,7 @@ slowed = 1;
 prev_slowed = 1;
 heaviness = 0;
 ability_disabled_ = false;
+debuffs_active_ = 0;
 
 depth = -200;
 
