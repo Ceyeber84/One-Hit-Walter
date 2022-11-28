@@ -1,5 +1,6 @@
 /// @description Initiate Earwig
 
+randomise();
 event_inherited();
 
 vspeed_ = 0;

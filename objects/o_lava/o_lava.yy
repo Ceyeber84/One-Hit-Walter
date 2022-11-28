@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_scream",
-    "path": "sprites/s_scream/s_scream.yy",
+    "name": "s_lava",
+    "path": "sprites/s_lava/s_lava.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,9 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_shield","path":"objects/o_shield/o_shield.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_scream",
+  "name": "o_lava",
   "tags": [],
   "resourceType": "GMObject",
 }

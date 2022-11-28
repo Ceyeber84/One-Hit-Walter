@@ -6,5 +6,5 @@ if instance_exists(o_walter){
 
 if alarm[0] <= 0 {
 	state = JUMP;
-	vspeed_ = -10.2;
+	vspeed_ = -10.5;
 }

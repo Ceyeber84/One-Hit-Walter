@@ -1,3 +1,5 @@
 /// @description Heavy
 
-heaviness += 1;
+if heaviness < 20 {
+	heaviness += 1;
+}

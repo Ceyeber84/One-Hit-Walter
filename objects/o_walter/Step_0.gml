@@ -37,7 +37,7 @@ if hinput = 0 {
 var vinput = keyboard_check(vk_down) - keyboard_check(vk_up)
 vacceleration_ = vinput * battery_acc_;
 vspeed_ += .3 * vacceleration_;
-vspeed_ = clamp(vspeed_, -max_speed_ * slowed * power(.90, heaviness), max_speed_ * slowed * power(1.1, heaviness));
+vspeed_ = clamp(vspeed_, -max_speed_ * slowed * power(.95, heaviness), max_speed_ * slowed * power(1.15, heaviness));
 if vinput = 0 {
 	vspeed_ = lerp(vspeed_, 0, .1);
 	vspeed_ += .1 * power(1.1, heaviness);
@@ -49,6 +49,9 @@ prev_slowed = slowed;
 
 // Collisions
 
+if place_meeting(x, y + vspeed_, o_lava) {
+	health_ -= 1;
+}
 Collision_Bounce();
 
 // Update X and Y

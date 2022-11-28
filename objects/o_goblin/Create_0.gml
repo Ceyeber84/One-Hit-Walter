@@ -3,8 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
-hspeed_ = 5;
-vspeed_ = .1;
+hspeed_ = 0;
+vspeed_ = 0;
 speed_ = 6;
 health_ = 15;
 glide_cd = room_speed * 3 + random_range(-1 * room_speed, 1 * room_speed);

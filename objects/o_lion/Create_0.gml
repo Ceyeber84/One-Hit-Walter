@@ -1,7 +1,7 @@
 /// @description
 event_inherited();
 
-health_ = 10;
+health_ = 15;
 scream_cooldown_ = room_speed*3;
 
 alarm[0] = scream_cooldown_;
