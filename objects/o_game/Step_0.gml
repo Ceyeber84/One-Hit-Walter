@@ -1,5 +1,12 @@
 /// @description
-
+//Activate Abilities
+if abilities_activated = false {
+	if ds_list_find_index(rooms_noncombat, room) = -1 {
+		abilities_activated = true;
+		ability_icons();	
+	}
+}
+show_debug_message(abilities_activated);
 //Switch Sandstorm Direction
 if sandstorm_active_ = true {
 	if alarm[0] <= 0 {
@@ -21,7 +28,7 @@ if room != current_room && room != a_title_screen && room != b_abilityselect1  {
 		if instance_exists(o_wolf_BOSS) {
 			audio_stop_all();
 			audio_play_sound(so_musicwolf, 1, true);
-		} else {
+		} else if !audio_is_playing(so_musiccp1){
 			audio_stop_all();
 			audio_play_sound(so_musiccp1, 1, true);
 		}
@@ -29,7 +36,7 @@ if room != current_room && room != a_title_screen && room != b_abilityselect1  {
 		if instance_exists(o_sandworm_BOSS) {
 			audio_stop_all();
 			audio_play_sound(so_musicsandworm, 1, true);
-		} else {
+		} else if !audio_is_playing(so_musiccp2){
 			audio_stop_all();
 			audio_play_sound(so_musiccp2, 1, true);
 		}
@@ -37,7 +44,7 @@ if room != current_room && room != a_title_screen && room != b_abilityselect1  {
 		if instance_exists(o_magma_delver_BOSS) {
 			audio_stop_all();
 			audio_play_sound(so_musicmagmadelver, 1, true);
-		} else {
+		} else if !audio_is_playing(so_musiccp3){
 			audio_stop_all();
 			audio_play_sound(so_musiccp3, 1, true);
 		}
@@ -53,14 +60,14 @@ current_room = room;
 
 
 //Next Room
-
-if (room != a_title_screen) && (room != b_abilityselect1) && (room != c_tutorial) {
+if ds_list_find_index(rooms_noncombat, room) = -1 {
 	if !instance_exists(o_enemyparent) && alarm[1] > room_speed * 10 {
 		alarm[1] = room_speed * 3;
 	}
 }
 
 if alarm[1] <= 0 && room_next(room) != -1 {
+	abilities_activated = false;
 	room_goto_next();
 	alarm[1] = room_speed * 1000;
 }

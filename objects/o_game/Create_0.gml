@@ -4,8 +4,20 @@
 global.laser_unlocked_ = false;
 global.shield_unlocked_ = false;
 global.battery_unlocked_ = false;
+
+global.ability1 = "None";
+global.ability2 = "None";
+global.ability3 = "None";
+
 global.lives = 3;
 global.walters = 3;
+
+//Rooms
+rooms_noncombat = ds_list_create();
+ds_list_add(rooms_noncombat, a_title_screen, b_abilityselect1, c_tutorial, b_abilityselect2, b_abilityselect3, zz_deathscreen, zz_endscreen);
+
+//Abilities
+abilities_activated = false;
 
 //Sandstorm
 sandstorm_active_ = false;

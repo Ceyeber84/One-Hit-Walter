@@ -11,7 +11,7 @@ if roomname = "room_1_9" && !instance_exists(o_enemyparent) {
 }
 
 //Health
-if (roomname != "a_title_screen") && (roomname != "b_abilityselect1" ) && (roomname != "zz_endscreen") {
+if ds_list_find_index(rooms_noncombat,room) == -1 {
 	if global.lives = 3 {
 		draw_sprite(s_hearts3, image_index, x, y);	
 	}

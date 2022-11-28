@@ -66,6 +66,7 @@ if alarm[1] <= 0 {
 if health_ <= 0  && global.lives != 1 {
 	global.lives -= 1;
 	audio_play_sound(so_walterdeath, 1, false);
+	o_game.abilities_activated = false;
 	room_restart()
 } else if health_ <= 0 && global.walters = 1 {
 	instance_create_depth(room_width/2, room_height/2, -1000, o_zzendscreen_returntomenu);
@@ -73,10 +74,12 @@ if health_ <= 0  && global.lives != 1 {
 	health_ = 1;
 	global.lives = 3;
 	global.walters = 0;
+	o_game.abilities_activated = false;
 	room_goto(zz_deathscreen);
 	instance_destroy(self);
 } else if health_ <= 0 && global.walters != 1 {
 	audio_play_sound(so_walterdeath, 1, false);
+	o_game.abilities_activated = false;
 	room_goto(global.saveroom);
 	global.lives = 3;
 	global.walters -= 1;
