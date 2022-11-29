@@ -58,18 +58,23 @@ if room = a_title_screen && room != current_room {
 
 current_room = room;
 
-
 //Next Room
-if ds_list_find_index(rooms_noncombat, room) = -1 {
+if ds_list_find_index(rooms_noncombat, room) = -1{
 	if !instance_exists(o_enemyparent) && alarm[1] > room_speed * 10 {
 		alarm[1] = room_speed * 3;
 	}
 }
 
 if alarm[1] <= 0 && room_next(room) != -1 {
-	abilities_activated = false;
-	room_goto_next();
-	alarm[1] = room_speed * 1000;
+	if room != z_sandwormboss && room != z_magmadelverboss{
+		abilities_activated = false;
+		room_goto_next();
+		alarm[1] = room_speed * 1000;
+	} else if room = z_sandwormboss || room = z_magmadelverboss {
+		abilities_activated = false;
+		room_goto(d_returntomenu);
+		alarm[1] = room_speed * 1000;
+	}
 }
 
 if alarm[1] <= room_speed * 10 && instance_exists(o_enemyparent) {

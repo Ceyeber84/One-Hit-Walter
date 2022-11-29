@@ -11,13 +11,14 @@ global.ability3 = "None";
 
 global.campaign_unlocked_2 = false;
 global.campaign_unlocked_3 = false;
+global.campaign_unlocked_4 = false;
 
 global.lives = 3;
 global.walters = 3;
 
 //Rooms
 rooms_noncombat = ds_list_create();
-ds_list_add(rooms_noncombat, a_title_screen, a_campaignselect, b_abilityselect1, c_tutorial, b_abilityselect2, b_abilityselect3, zz_deathscreen, zz_endscreen);
+ds_list_add(rooms_noncombat, a_title_screen, a_campaignselect, b_abilityselect1, c_tutorial, b_abilityselect2, b_abilityselect3, d_returntomenu, zz_deathscreen, zz_endscreen);
 
 //Abilities
 abilities_activated = false;
@@ -38,5 +39,6 @@ global.campaign = 1;
 current_room = a_title_screen;
 
 //Create Font
-global.Font = font_add_sprite_ext(s_font, "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz ", true, 1);
+global.Font = font_add_sprite_ext(s_font, "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz'! ", true, 1);
 draw_set_font(global.Font);
+draw_set_halign(fa_center);

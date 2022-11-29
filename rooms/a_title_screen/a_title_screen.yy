@@ -48,8 +48,8 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_3B9185BB","path":"rooms/a_title_screen/a_title_screen.yy",},
-    {"name":"inst_313A88A0","path":"rooms/a_title_screen/a_title_screen.yy",},
     {"name":"inst_7664BD00","path":"rooms/a_title_screen/a_title_screen.yy",},
+    {"name":"inst_313A88A0","path":"rooms/a_title_screen/a_title_screen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
