@@ -6,7 +6,7 @@ event_inherited();
 hspeed_ = 0;
 vspeed_ = 0;
 speed_ = 6;
-health_ = 15;
+health_ = 12;
 glide_cd = room_speed * 3 + random_range(-1 * room_speed, 1 * room_speed);
 alarm[0] = glide_cd;
 alarm[1] = -1;

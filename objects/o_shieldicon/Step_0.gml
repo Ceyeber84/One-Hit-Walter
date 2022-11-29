@@ -21,5 +21,8 @@ if instance_exists(o_walter) {
 
 
 if instance_exists(o_shield) && alarm[0] <= 0 {
+	if instance_exists(o_walter) {
+		o_walter.bullet_cooldown_ = room_speed / 2;
+	}
 	instance_destroy(o_shield);
 }

@@ -6,7 +6,7 @@ if abilities_activated = false {
 		ability_icons();	
 	}
 }
-show_debug_message(abilities_activated);
+
 //Switch Sandstorm Direction
 if sandstorm_active_ = true {
 	if alarm[0] <= 0 {

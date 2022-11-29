@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ability_icons(){
-	show_debug_message("Yay");
+
 if global.ability1 == "Laser" {
 	instance_create_depth(24, 56, -900, o_laserability);	
 }

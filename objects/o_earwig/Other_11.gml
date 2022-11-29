@@ -8,7 +8,7 @@ y += vspeed_;
 
 if y >= 680 {
 	state = LURK;
-	alarm[0] = jump_cd + random_range(-1, 1);
+	alarm[0] = jump_cd + random_range(-1 * room_speed, 1* room_speed);
 	vspeed_ = 0;
 }
 

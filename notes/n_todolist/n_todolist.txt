@@ -1,7 +1,11 @@
 TO DO:
--Sprite reworks (Jake)
--Full GUI Rework
--World 2 and 3
--Powerup Progression
--Glitch Hunting + Patching
--Balance Changes
+
+-	Enemy Sprites
+-	Make Acid stand out more
+-	World 1, 2 and 3 backgrounds
+-	World 2 sand tileset
+-	GUI Rework with new Font
+-	Campaign Select Screen (with global.campaign = [campaign]) +
+	Campaign Progression
+-	Make Vulture less OP
+-	Balancing
