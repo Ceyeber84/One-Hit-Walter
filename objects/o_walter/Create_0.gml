@@ -13,7 +13,7 @@ heaviness = 0;
 ability_disabled_ = false;
 debuffs_active_ = 0;
 
-depth = -200;
+depth = -15000;
 
 //Bullet
 bullet_hspeed_ = 0;
