@@ -39,6 +39,6 @@ global.campaign = 1;
 current_room = a_title_screen;
 
 //Create Font
-global.Font = font_add_sprite_ext(s_font, "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz'! ", true, 1);
+global.Font = font_add_sprite_ext(s_font, "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz'!. ", true, 1);
 draw_set_font(global.Font);
 draw_set_halign(fa_center);
