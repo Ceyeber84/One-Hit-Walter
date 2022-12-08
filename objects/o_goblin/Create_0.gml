@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-hspeed_ = 0;
+hspeed_ = 6;
 vspeed_ = 0;
 speed_ = 6;
 health_ = 12;
