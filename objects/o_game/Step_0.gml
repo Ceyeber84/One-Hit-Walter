@@ -7,7 +7,14 @@ if abilities_activated = false {
 	}
 }
 
-//Switch Sandstorm Direction
+//Sandstorm
+/*
+if room = cp2_4 || room = cp2_5 || room = cp2_6 || room = z_sandwormboss {
+	sandstorm_active_ = true;	
+} else {
+	sandstorm_active_ = false;	
+}
+*/
 if sandstorm_active_ = true {
 	if alarm[0] <= 0 {
 		sandstorm_direction_ = sandstorm_direction_ * -1;
@@ -23,7 +30,7 @@ if sandstorm_active_ = true {
 
 // Base Music on Room
 
-if room != current_room && room != a_title_screen && room != b_abilityselect1  {
+if room != current_room && room != a_title_screen && room != b_abilityselect1 && room != a_credits {
 	if global.campaign = 1 {
 		if instance_exists(o_wolf_BOSS) {
 			audio_stop_all();

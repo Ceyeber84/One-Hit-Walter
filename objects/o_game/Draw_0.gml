@@ -25,6 +25,11 @@ if ds_list_find_index(rooms_noncombat,room) == -1 || room = c_tutorial {
 	}
 }
 
+//Sandstorm
+if sandstorm_active_ = true {
+	draw_sprite_ext(s_background_sandstorm, image_index, room_width/2, 0, sandstorm_direction_, image_yscale, image_angle, image_blend, image_alpha);	
+}
+
 /*
 if room = TESTROOM {
 	draw_text_ext_transformed(room_width/2 - 280, room_height/2 - 128, "the quick brown fox jumps over the lazy dog", 10, 150, 4, 4, 0);

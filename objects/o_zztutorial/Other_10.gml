@@ -1,6 +1,8 @@
 /// @description FLY
 //draw_sprite(s_zztutorial_flytext, image_index, room_width/2, room_height/4);
+
 draw_text_ext_transformed(room_width/2, room_height/4, "Use ''WASD'' To Fly Around The Room!", 10, room_width, 3, 3, 0);
+
 o_walter.ability_disabled_ = true;
 
 if alarm[0] >= room_speed*6 {

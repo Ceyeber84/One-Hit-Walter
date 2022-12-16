@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 1,
+  "gridY": 1,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"95d146ac-c138-49ef-99bc-ba49bf9508ca","path":"sprites/s_sandworm_BOSS/s_sandworm_BOSS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"95d146ac-c138-49ef-99bc-ba49bf9508ca","path":"sprites/s_sandworm_BOSS/s_sandworm_BOSS.yy",},"LayerId":{"name":"e2ff8b84-a590-4c4a-b6df-c02ced69f060","path":"sprites/s_sandworm_BOSS/s_sandworm_BOSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

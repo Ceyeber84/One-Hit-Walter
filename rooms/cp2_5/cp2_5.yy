@@ -122,7 +122,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_scorpion","path":"objects/o_scorpion/o_scorpion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":344.0,"y":448.0,"resourceVersion":"1.0","name":"inst_4318C528","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":4,"gridY":4,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Walls","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Lava","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"tilesetId":{"name":"TileSetGrass","path":"tilesets/TileSetGrass/TileSetGrass.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":15,"TileSerialiseData":[
+    {"tilesetId":{"name":"TileSetSand","path":"tilesets/TileSetSand/TileSetSand.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":15,"TileSerialiseData":[
 17,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,13,
 19,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,14,
 19,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,14,
@@ -145,7 +145,7 @@
     {"assets":[
         {"spriteId":{"name":"s_zzenemy_fly","path":"sprites/s_zzenemy_fly/s_zzenemy_fly.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":2.25,"scaleY":2.25,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":72.0,"y":24.0,"resourceVersion":"1.0","name":"graphic_604E75C4_1_1_1_1_2_1_1","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":4,"gridY":4,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
-    {"spriteId":null,"colour":4294311855,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
+    {"spriteId":{"name":"s_backgrounddesert","path":"sprites/s_backgrounddesert/s_backgrounddesert.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
   "creationCodeFile": "${project_dir}/rooms/r_one/RoomCreationCode.gml",

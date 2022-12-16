@@ -22,3 +22,5 @@ alarm[1] = room_speed * 2;
 IDLE = 0;
 ATTACKING = 1;
 state = IDLE;
+
+instance_create_depth(room_width/2,room_height/10, 0, o_bosshealthbar_delver);

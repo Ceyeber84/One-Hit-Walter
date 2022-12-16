@@ -16,6 +16,8 @@ Collision_Bounce();
 x += hspeed_;
 y += vspeed_;
 
+image_xscale = -sign(hspeed_);
+
 //Die
 if health_ <= 0 {
 	instance_destroy()	

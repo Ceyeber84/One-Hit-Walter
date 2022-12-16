@@ -6,8 +6,8 @@ vspeed_ = attack_speed_ * vdir_;
 //Spawn Minions
 if instance_exists(o_walter) {
 	if spawned_minions_ == false {
-		if x > 0 and x < room_width {
-			if y > 0 and y < room_height {
+		if x > 32 and x < room_width - 32 {
+			if y > 32 and y < room_height - 32 {
 				if instance_number(o_sandworm_minion) < 5 {
 					if ((x > o_walter.x - 5 and x < o_walter.x + 5) and hspeed_ != 0) or ((y > o_walter.y - 5 and y < o_walter.y + 5) and vspeed_ != 0){
 					instance_create_depth(x-15, y-15, -100, o_sandworm_minion);

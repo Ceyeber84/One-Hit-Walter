@@ -18,7 +18,7 @@ global.walters = 3;
 
 //Rooms
 rooms_noncombat = ds_list_create();
-ds_list_add(rooms_noncombat, a_title_screen, a_campaignselect, b_abilityselect1, c_tutorial, b_abilityselect2, b_abilityselect3, d_returntomenu, zz_deathscreen, zz_endscreen);
+ds_list_add(rooms_noncombat, a_title_screen, a_credits, a_campaignselect, b_abilityselect1, c_tutorial, b_abilityselect2, b_abilityselect3, d_returntomenu, zz_deathscreen, zz_endscreen);
 
 //Abilities
 abilities_activated = false;

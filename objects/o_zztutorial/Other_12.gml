@@ -1,6 +1,8 @@
 /// @description ABILITY
 //draw_sprite(s_zztutorial_abilitytext, image_index, 290, 38);
+
 draw_text_ext_transformed(200, 28, "Your Ability Has A Short Cooldown. Try It Out!", 10, 160, 2, 2, 0);
+
 
 if global.laser_unlocked_ = true {
 	if mouse_check_button_pressed(mb_right) {

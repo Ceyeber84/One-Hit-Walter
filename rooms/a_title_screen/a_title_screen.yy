@@ -36,6 +36,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_zzmenu_startgame","path":"objects/o_zzmenu_startgame/o_zzmenu_startgame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":180.0,"resourceVersion":"1.0","name":"inst_313A88A0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_game","path":"objects/o_game/o_game.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":616.0,"y":24.0,"resourceVersion":"1.0","name":"inst_3B9185BB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_title_screen","path":"objects/o_title_screen/o_title_screen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":616.0,"y":4.0,"resourceVersion":"1.0","name":"inst_7664BD00","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_credits","path":"objects/o_credits/o_credits.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":380.0,"resourceVersion":"1.0","name":"inst_2CDBA56B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":4,"gridY":4,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"s_walter_idle","path":"sprites/s_walter_idle/s_walter_idle.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":-4.0,"scaleY":4.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":288.0,"resourceVersion":"1.0","name":"graphic_58310FED","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -50,6 +51,7 @@
     {"name":"inst_3B9185BB","path":"rooms/a_title_screen/a_title_screen.yy",},
     {"name":"inst_7664BD00","path":"rooms/a_title_screen/a_title_screen.yy",},
     {"name":"inst_313A88A0","path":"rooms/a_title_screen/a_title_screen.yy",},
+    {"name":"inst_2CDBA56B","path":"rooms/a_title_screen/a_title_screen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

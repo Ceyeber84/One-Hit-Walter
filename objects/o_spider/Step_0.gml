@@ -33,6 +33,6 @@ if health_ <= 0 {
 	}
 	instance_destroy();
 }
-
+ 
 x += hspeed_;
 y += vspeed_;
