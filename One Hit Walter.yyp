@@ -90,7 +90,6 @@
     {"id":{"name":"s_hearts3","path":"sprites/s_hearts3/s_hearts3.yy",},"order":49,},
     {"id":{"name":"ability_icons","path":"scripts/ability_icons/ability_icons.yy",},"order":6,},
     {"id":{"name":"s_walter_moving","path":"sprites/s_walter_moving/s_walter_moving.yy",},"order":37,},
-    {"id":{"name":"TESTROOM","path":"rooms/TESTROOM/TESTROOM.yy",},"order":14,},
     {"id":{"name":"s_swallow","path":"sprites/s_swallow/s_swallow.yy",},"order":2,},
     {"id":{"name":"cp2_6","path":"rooms/cp2_6/cp2_6.yy",},"order":30,},
     {"id":{"name":"s_scream","path":"sprites/s_scream/s_scream.yy",},"order":27,},
@@ -303,7 +302,6 @@
     {"roomId":{"name":"zz_endscreen","path":"rooms/zz_endscreen/zz_endscreen.yy",},},
     {"roomId":{"name":"zz_deathscreen","path":"rooms/zz_deathscreen/zz_deathscreen.yy",},},
     {"roomId":{"name":"a_credits","path":"rooms/a_credits/a_credits.yy",},},
-    {"roomId":{"name":"TESTROOM","path":"rooms/TESTROOM/TESTROOM.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
